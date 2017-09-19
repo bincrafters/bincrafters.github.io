@@ -19,7 +19,7 @@ Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Bo
 ---
 
 ## Technical Information
-To get started with using the Bincrafters public Conan repository, please see this post: Bincrafters Conan Instructions
+To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](2017-06-06-using-bincrafters-conan-repository.md)
 
 ## Background Information
 Please read on for more information about the project. 
