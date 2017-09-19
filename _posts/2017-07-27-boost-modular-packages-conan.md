@@ -6,13 +6,13 @@ tags: [C++, Conan.io, Bintray, Boost]
 
 Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies, rather than referecing the entire Boost collection. 
 
-* Before
+## Before
 ```
 [requires]
 Boost/1.64.0@conan/stable
 ```
 
-* After
+## After
 ```
 [requires]
 Boost.Process/1.64.0@bincrafters/stable
