@@ -2,7 +2,7 @@
 layout: about
 title: About
 menu: true
-order: 3
+order: 10
 ---
 ## Open-Source Providers
 Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor. Each plays a critical role in the packaging pipeline, and we are very grateful to these companies for providing these services. 

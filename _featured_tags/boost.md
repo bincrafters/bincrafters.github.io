@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Boost
+slug: Boost
 menu: true
 order: 4
 description: >

@@ -3,7 +3,7 @@ layout: list
 title: Hyde
 slug: hyde
 menu: true
-order: 5
+order: 3
 description: >
   The C++ programming language
 

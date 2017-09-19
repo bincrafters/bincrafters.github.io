@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Why we use Bintray'
-tags: [bintray]
+tags: [Bintray]
 ---
 
 Perhaps one can guess from the similarity in our name, but Bincrafters was largely inspired by Bintray.  Unlike the other services we use such as Github, Travis, and Appveyor, there was never really anything quite like Bintray.  Also, as of this writing, there aren't any alternatives that provide anything close to what Bintray does: a mature platform for hosting a wide range of repository types, storing all of the binary types that we create and use, with all the of the modern management features we need: user management, a solid API, etc. 

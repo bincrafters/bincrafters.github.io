@@ -1,11 +1,11 @@
 ---
 layout: list
-title: Boost
-slug: Boost
+title: Go-Tools
+slug: Go-Tools
 menu: true
-order: 2
+order: 5
 description: >
-  Boost is a popular C++ library collection.
+  A set of packaging tools written in Go is used extensively by the Bincrafters team. 
 
 image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=='
 color: '#268bd2'
