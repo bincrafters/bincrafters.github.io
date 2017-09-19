@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: C++
+slug: C++
 menu: true
 order: 3
 description: >
