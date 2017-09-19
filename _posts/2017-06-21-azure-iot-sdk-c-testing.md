@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Azure IOT SDK for C - Available for Testing'
+title: 'Conan Package - Azure IOT SDK for C - Available for Testing'
 tags: [C++, Conan.io]
 ---
 

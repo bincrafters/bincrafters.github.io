@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Microsoft CPPRest SDK Conan Package - Available for Testing'
+title: 'Conan Package - Microsoft CPPRest SDK - Available for Testing'
 tags: [C++, Conan.io]
 ---
 
