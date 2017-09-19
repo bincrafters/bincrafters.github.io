@@ -1,19 +1,15 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-qwtel:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+bincrafters:
+  name:              Bincrafters
+  email:             bincrafters@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
+    Bincrafters began with a few developers who were each publishing Open-Source binary packages separately to Bintray, a cloud hosting service for Binary packages. While this is standard-practice in the Open-Source community, it creates several challenges for both the developers and the user community that might consume those packages. This lack a massive amount of duplicated of effort, and a lack of discoverability due to a sprawling of these packages across many separate repositories, among others. Bincrafters pools the time and diverse skills from multiple developers to publish and host high-quality packages in a small set of curated public repositories on Bintray.
+    
   # This photo will be used in the about section
   picture:
     src:             https://placehold.it/128x128
@@ -27,7 +23,7 @@ qwtel:
   # Icons appear in order, can be rearranged:
   social:
     # facebook:        <username>
-    twitter:         <username>
+    # twitter:         <username>
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -50,33 +46,17 @@ qwtel:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          <username>
+    github:          bincrafters
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
-    # trello:          <firstnamelastname>
+    trello:          bincrafters
     # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:<mail@domain.tld>
-    rss:             https://<url>/feed.xml
+    email:           mailto:bincrafters@gmail.com
+    #rss:             https://<url>/feed.xml
 
-# Another author
-mdo:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
-  social:
-    github:          <username>
-    twitter:         <username>
-  image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
-  color: '#268bd2'
