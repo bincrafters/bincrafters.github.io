@@ -1,0 +1,23 @@
+<div id="_yDrawer">
+  <div id="_sidebar" class="sidebar">
+    <div class="sidebar-bg" style="background-color:{{ color }};background-image:url({{ image }})"></div>
+    <header class="sidebar-sticky" role="banner">
+      <div class="sidebar-about">
+        <h1><a id="_title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        {{ site.description | truncatewords:50 | markdownify }}
+      </div>
+
+      <nav class="sidebar-nav heading" role="navigation">
+        {% include nav.html %}
+      </nav>
+
+      {% assign author = site.data.authors.first[1] | default:site.author %}
+
+      {% if author.social or site.github_username or site.twitter_username %}
+        <div class="sidebar-social">
+          {% include social.html social=author.social %}
+        </div>
+      {% endif %}
+    </header>
+  </div>
+</div>
