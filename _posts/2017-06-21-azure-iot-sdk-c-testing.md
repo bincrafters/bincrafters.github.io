@@ -6,9 +6,11 @@ tags: [C++, Conan.io]
 
 A new package is now available on the Bincrafters `public-conan` repository: "The Azure IOT SDK for C" published by Microsoft.  It is a pure C library for communicating with Microsoft Azure's IOTHub platform, and features a collection of other pure C libraries for things like MQTT, AMQP, JSON Parsing, etc.  Each library is packaged separately with Conan, and the dependency tree is expressed appropriately in each recipes. For instructions on using Bincrafters `public-conan` repository, [please see this post](2017-06-06-using-bincrafters-conan-repository.md).
 
-Package reference: 
-	$ Azure-IoT-SDK-C/1.1.21@bincrafters/testing
-
+* Package reference: 
+```
+[requires]
+Azure-IoT-SDK-C/1.1.21@bincrafters/testing
+```
 ---
 
 ## Use Cases
