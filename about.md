@@ -22,3 +22,6 @@ Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor.
 {:.lead}
 
 
+## Contact Information
+
+For matters regarding existing packages, we prefer that users contact us via Github Issues on the corresponding Github Repository.  For other matters, you can email us using our "bincrafters" gmail account. 
