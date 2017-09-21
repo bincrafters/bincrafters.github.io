@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Command-Driven Toolset for OS Packaging - In Go, By mh-cbon'
-tags: [Bintray, Go-Tools]
+tags: [Bintray, Cross-Platform]
 ---
 A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here: 
 
