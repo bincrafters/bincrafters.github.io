@@ -3,9 +3,7 @@ layout: post
 title: 'Cross-Platform Command-Line Toolset for OS Packaging'
 tags: [Bintray, Cross-Platform]
 ---
-A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here: 
-
-[mh-cbon's Packaging Toolset - Overview and Tutorial](ttps://github.com/mh-cbon/go-github-release)
+A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here:  [mh-cbon's Packaging Toolset - Overview and Tutorial](https://github.com/mh-cbon/go-github-release)
 
 Note that the repository is called "go-github-release" because the tutorial original showed how to publish the binary packages to Github releases.  It has been re-written to focus on publishing binaries to Bintray. 
 
