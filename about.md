@@ -16,4 +16,9 @@ Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor.
 {:.lead}
 
 
+## Active Members
+
+> [uilianries](https://github.com/uilianries) - [grafikrobot](https://github.com/grafikrobot) - [solvingj](https://github.org/solvingj)
+{:.lead}
+
 
