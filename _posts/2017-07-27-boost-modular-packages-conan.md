@@ -21,11 +21,9 @@ Boost.Process/1.64.0@bincrafters/stable
 ---
 
 ## Technical Information
-To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](2017-06-06-using-bincrafters-conan-repository.md)
+To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
 ## Background Information
-Please read on for more information about the project. 
-
 ### Boost Background
 The Boost libraries have historically been released in the form of a single package which contains all of the libraries bundled together.  This provides a number of benefits, but also has significant and well-known disadvantages. For example, one of the oldest and most common requests from the Boost user community has been the ability to consume individual libraries from Boost without getting the entire bundle, something which has always been unsupported. While the Boost team is currently working toward changing this paradigm to something more modular, it will be some time until that effort is complete. Until then, Bincrafters will be publishing each release of the Boost libraries as modular pacakges on our public Conan repository.
 
