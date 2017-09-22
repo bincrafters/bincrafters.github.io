@@ -4,7 +4,7 @@ title: 'Boost 1.64.0 - Modular Packages on Conan.io'
 tags: [C++, Conan.io, Bintray, Boost]
 ---
 
-Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies, rather than referecing the entire Boost collection. 
+Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies rather than referencing the entire Boost collection. 
 
 ## Before
 ```
@@ -35,6 +35,9 @@ Conan allows users to pass options to for each package upon install. The list of
 |Regex			|use_icu					| True                | True/False  
 
 *Note: The default option for "python" will search environment variables for a python install, and should find it by default on most systems*
+
+## Boost Library Inter-dependencies
+The Conan recipe for each Boost library naturally defines each of it's direct dependencies. Conan is therefor able to perform normal transitive dependency resolution just like any other package, only downloading the required packages to your local cache, and only passing the required library information to your build system for including and linking.  Properly expressing the Boost dependency tree in Conan was a significant part of the effort involved in this project, and a major milestone. 
 
 ## Conan Download and Cache Explained
 If the Bincrafters repository contains a precompiled binary that matches your OS, compiler, and compiler settings, Conan will just download it to your local conan cache, and use it.  If it doesn't, Conan will download the recipe, build from source, and store the binary in your cache. Then, any future projects on that machine which use the same library (and the same compiler settings), will just use the binary in the cache.  This caching and re-use of compiled libraries is a cornerstone of Conan's efficiency benefits. 
