@@ -23,6 +23,11 @@ Boost.Process/1.64.0@bincrafters/stable
 ## Technical Information
 To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
+## Conan Version
+It is very highly recommended that you get the latest version of Conan.io 0.27.0 or higher to use these packages.  
+
+	$ pip install conan --upgrade
+
 ## Package Options
 Conan allows users to pass options to for each package upon install. The list of options for Boost packages are: 
 
