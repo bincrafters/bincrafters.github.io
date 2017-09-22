@@ -34,7 +34,7 @@ Conan allows users to pass options to for each package upon install. The list of
 |IOstreams		|use_bzip2				| True                | True/False  
 |Regex			|use_icu					| True                | True/False  
 
-*Note: The option for python must be given, and specify a valid path to a python install. 
+*Note: The default option for "python" will search environment variables for a python install, and should find it by default on most systems*
 
 ## Continuous Integration
 Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called "Conan Package Tools", which streamlines the CI process for us, making it much easier to maintain. 
