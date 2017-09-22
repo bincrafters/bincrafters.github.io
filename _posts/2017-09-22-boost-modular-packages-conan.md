@@ -36,11 +36,11 @@ Conan allows users to pass options to for each package upon install. The list of
 
 *Note: The default option for "python" will search environment variables for a python install, and should find it by default on most systems*
 
-## Continuous Integration
-Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called "Conan Package Tools", which streamlines the CI process for us, making it much easier to maintain. 
-
 ## Conan Download and Cache Explained
 If the Bincrafters repository contains a precompiled binary that matches your OS, compiler, and compiler settings, Conan will just download it to your local conan cache, and use it.  If it doesn't, Conan will download the recipe, build from source, and store the binary in your cache. Then, any future projects on that machine which use the same library (and the same compiler settings), will just use the binary in the cache.  This caching and re-use of compiled libraries is a cornerstone of Conan's efficiency benefits. 
+
+## Continuous Integration
+Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called ["Conan Package Tools"](https://github.com/conan-io/conan-package-tools), which streamlines the CI process for us, making it much easier to maintain. 
 
 ## Background Information
 ### Boost Background
