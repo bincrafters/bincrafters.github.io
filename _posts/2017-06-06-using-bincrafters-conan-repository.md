@@ -11,7 +11,7 @@ If you're new to Conan.io, please start with [Conan's Official Getting Started D
 
 The rest of this guide will assume you have a basic working knowledge of Conan.io, along with a working installation. 
 
-## Adding the Bintray repository as a "Conan Remote"
+## Adding the Bincrafters repository as a "Conan Remote"
 By default, Conan will only search for packages from the two central repositories hosted and moderated by Conan.io staff: "conan-center" and "conan-transit".  Bincrafters packages are hosted in a separate Conan repository which is also hosted by Bintray, but which is managed by the Bincrafters team.  To start using any of the Bincrafters packages, simply run the command below:
 
 	$ conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
