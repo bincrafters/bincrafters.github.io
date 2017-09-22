@@ -9,9 +9,9 @@ Note that the repository is called "go-github-release" because the tutorial orig
 
 ## Core Tools
 At the center of the toolset and it's value are the three packaging executables: 
-* [go-bin-deb](https://github.com/mh-cbon/go-bin-deb) - A Facade 
-* [go-bin-rpm](https://github.com/mh-cbon/go-bin-msi)
-* [go-msi](https://github.com/mh-cbon/go-msi) (creates both msi and nuget) 
+* [go-bin-deb](https://github.com/mh-cbon/go-bin-deb) - A facade for creating .deb packages
+* [go-bin-rpm](https://github.com/mh-cbon/go-bin-msi) - A facade for packaging .rpm packages
+* [go-msi](https://github.com/mh-cbon/go-msi) - A facade for creating both MSI and Nuget packages (Nuget is used for Chocolatey)
 
 ## Core Overview
 These three tools provide a uniform process for taking whatever files you need to package, and producing the output file of the corresponding package type.  The uniform process involves a friendly json config file for each, and supports the passing of other necessary options at the CLI.   It's hard to overstate the subtle brilliance of the solution here.  The author has taken four separate workflows and toolsets, where the documentation and API's among them seemed vastly different and unreconcilable, and unified them into a single simple and consistent workflow.   It's worth noting however, that there still seems to be no way around the requirement that you have to be on the OS for which you want to package, and have the tools installed.  `go-msi` requires wix or nsis, `go-bin-rpm` requires all the rpm tools be installed and run on a redhat/centos/fedora machine, and `go-bin-deb` requires build-dep be installed and run on a debian or ubuntu machine. 
