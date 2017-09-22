@@ -24,3 +24,6 @@ Conan has a somewhat unique but valuable notion of channels embedded in the pack
 
 ## Feedback
 If you have questions about the Bincrafters repository, please feel free to email us: bincrafters at g mail dot com
+
+## Disclaimers
+Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers.md). 
