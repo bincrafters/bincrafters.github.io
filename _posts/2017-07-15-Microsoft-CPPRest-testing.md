@@ -4,7 +4,7 @@ title: 'Conan Package - Microsoft CPPRest SDK - Available for Testing'
 tags: [C++, Conan.io]
 ---
 
-A new package is now available on the Bincrafters `public-conan` repository: Microsoft's "CPPRest SDK".  Formerly known as "Casablanca", the CPPRest SDK is one of the most stable and mature REST libraries for C++.  It is a solid library for interacting with any REST API, not just those provided by Microsoft.  For instructions on using Bincrafters `public-conan` repository, [please see this post](2017-06-06-using-bincrafters-conan-repository.md).
+A new package is now available on the [Bincrafters Public Conan Repository](https://bintray.com/bincrafters/public-conan): Microsoft's "CPPRest SDK".  Formerly known as "Casablanca", the CPPRest SDK is one of the most stable and mature REST libraries for C++.  It is a solid library for interacting with any REST API, not just those provided by Microsoft.  For instructions on using Bincrafters `public-conan` repository, [please see this post](2017-06-06-using-bincrafters-conan-repository.md).
 
 * Package reference: 
 ```
@@ -19,3 +19,6 @@ Notably, it supports websockets, and the [Swagger project](https://swagger.io) h
 
 ## Status - Testing
 Currently, these packages do not yet have a `stable` branch, however we expect to have that completed soon.  In the meantime, we are looking for beta testers to use the packages on the `testing` branch, but with the disclaimer that it should not be used for production code, and is subject to change at any time.  If you do test and have feedback, please open an issue on the github repository for this recipes project.  http://github.com/bincrafters.
+
+## Disclaimers
+Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers.md). 
