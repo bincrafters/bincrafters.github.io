@@ -51,6 +51,10 @@ If the Bincrafters repository contains a precompiled binary that matches your OS
 Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called ["Conan Package Tools"](https://github.com/conan-io/conan-package-tools), which streamlines the CI process for us, making it much easier to maintain. 
 
 ## About the Project
+
+### The First Release
+Boost 1.64.0 is the first release of these packages, and took significant effort from multiple developers over the past three months.  We are very interested in continuing to improve the packages over time, and hope community members will notify us of problems or areas for improvement.  For specific issues relating to a single package, you can find the github repository which contains the conan recipe on the corresponding Bintray page for that package.  Please visit this Github repository and report the issue there.  For more general questions, please feel free to email us: bincrafters at g mail dot com .
+
 ### Boost Background
 The Boost libraries have historically been released in the form of a single package which contains all of the libraries bundled together.  This provides a number of benefits, but also has significant and well-known disadvantages. For example, one of the oldest and most common requests from the Boost user community has been the ability to consume individual libraries from Boost without getting the entire bundle, something which has always been unsupported. While the Boost team is currently working toward changing this paradigm to something more modular, it will be some time until that effort is complete. Until then, Bincrafters will be publishing each release of the Boost libraries as modular pacakges on our public Conan repository.
 
