@@ -23,6 +23,18 @@ Boost.Process/1.64.0@bincrafters/stable
 ## Technical Information
 To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
+## Package Options
+Conan allows users to pass options to for each package upon install. The list of options for Boost packages are: 
+
+|Package        |Option Name		| Default Values   | Possible Value    
+|---------------|---------------------|-------------------|------------------
+|All				|shared					| True                | True/False         
+|Python			|shared					| "python"          | string/path to local python install 
+|IOstreams		|use_zlib				| True                | True/False         
+|IOstreams		|use_bzip2				| True                | True/False  
+|Regex			|use_icu					| True                | True/False  
+
+
 ## Continuous Integration
 Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called "Conan Package Tools", which streamlines the CI process for us, making it much easier to maintain. 
 
