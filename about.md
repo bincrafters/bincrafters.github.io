@@ -16,4 +16,12 @@ Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor.
 {:.lead}
 
 
+## Active Members
 
+> [uilianries](https://github.com/uilianries) - [grafikrobot](https://github.com/grafikrobot) - [solvingj](https://github.org/solvingj)
+{:.lead}
+
+
+## Contact Information
+
+For matters regarding existing packages, we prefer that users contact us via Github Issues on the corresponding Github Repository.  For other matters, you can email us using our "bincrafters" gmail account. 

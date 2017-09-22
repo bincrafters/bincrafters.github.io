@@ -1,26 +1,26 @@
 ---
 layout: post
-title: 'Command-Driven Toolset for OS Packaging - In Go, By mh-cbon'
-tags: [Bintray, Go-Tools]
+title: 'Cross-Platform Command-Line Toolset for OS Packaging'
+tags: [Bintray, Cross-Platform]
 ---
-A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here: 
+A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here:  [mh-cbon's Packaging Toolset - Overview and Tutorial](https://github.com/mh-cbon/go-github-release)
 
-https://github.com/mh-cbon/go-github-release
+Note that the repository is called "go-github-release" because the tutorial original showed how to publish the binary packages to Github releases.  It has been re-written to focus on publishing binaries to Bintray. 
 
 ## Core Tools
 At the center of the toolset and it's value are the three packaging executables: 
-* go-bin-deb - A Facade 
-* go-bin-rpm
-* go-msi (creates both msi and nuget) 
+* [go-bin-deb](https://github.com/mh-cbon/go-bin-deb) - A Facade 
+* [go-bin-rpm](https://github.com/mh-cbon/go-bin-msi)
+* [go-msi](https://github.com/mh-cbon/go-msi) (creates both msi and nuget) 
 
 ## Core Overview
 These three tools provide a uniform process for taking whatever files you need to package, and producing the output file of the corresponding package type.  The uniform process involves a friendly json config file for each, and supports the passing of other necessary options at the CLI.   It's hard to overstate the subtle brilliance of the solution here.  The author has taken four separate workflows and toolsets, where the documentation and API's among them seemed vastly different and unreconcilable, and unified them into a single simple and consistent workflow.   It's worth noting however, that there still seems to be no way around the requirement that you have to be on the OS for which you want to package, and have the tools installed.  `go-msi` requires wix or nsis, `go-bin-rpm` requires all the rpm tools be installed and run on a redhat/centos/fedora machine, and `go-bin-deb` requires build-dep be installed and run on a debian or ubuntu machine. 
 
 ## Additional Tools
 On the periphery are some other tools which are elegant in their own right:
-* emd - enhanced markdown for automating readme updates
-* changelog - parses git logs to automatically build a changelog, multiple format outputs
-* gump - lets users specify multiple command to run every time a version bump is done
+* [emd](https://github.com/mh-cbon/emd) - enhanced markdown for automating readme updates
+* [changelog](https://github.com/mh-cbon/changelog) - parses git logs to automatically build a changelog, multiple format outputs
+* [gump](https://github.com/mh-cbon/gump) - lets users specify multiple command to run every time a version bump is done
 
 Although it's not required to use these tools, there are some integrations among the toolset.  In general, these tools are broadly useful for anyone trying to manage a software release pipeline with a team, especially if there are multiple languages and toolsets at work. 
 
