@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Boost - Modular Packages on Conan.io'
+title: 'Boost 1.64.0 - Modular Packages on Conan.io'
 tags: [C++, Conan.io, Bintray, Boost]
 ---
 
@@ -29,11 +29,12 @@ Conan allows users to pass options to for each package upon install. The list of
 |Package        |Option Name		| Default Values   | Possible Value    
 |---------------|---------------------|-------------------|------------------
 |All				|shared					| True                | True/False         
-|Python			|shared					| "python"          | string/path to local python install 
+|Python			|python					| "python"          | string/path to local python install 
 |IOstreams		|use_zlib				| True                | True/False         
 |IOstreams		|use_bzip2				| True                | True/False  
 |Regex			|use_icu					| True                | True/False  
 
+*Note: The option for python must be given, and specify a valid path to a python install. 
 
 ## Continuous Integration
 Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  This populates our Conan repository with not only the package recipes (which contain the build instructions), but also a wide array of pre-compiled Binaries for the most common operating systems, compilers, and settings.  The Conan team maintains a project called "Conan Package Tools", which streamlines the CI process for us, making it much easier to maintain. 
