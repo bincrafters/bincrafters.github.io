@@ -4,7 +4,7 @@ title: 'Boost 1.64.0 - Modular Packages on Conan.io'
 tags: [C++, Conan.io, Bintray, Boost]
 ---
 
-Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies rather than referencing the entire Boost collection. 
+Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost C++ libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies rather than referencing the entire Boost collection. 
 
 ## Before
 ```
@@ -56,7 +56,7 @@ Bincrafters uses Appveyor and Travis CI to provide CI for all our packages.  Thi
 Boost 1.64.0 is the first release of these packages, and took significant effort from multiple developers over the past three months.  We are very interested in continuing to improve the packages over time, and hope community members will notify us of problems or areas for improvement.  For specific issues relating to a single package, you can find the github repository which contains the conan recipe on the corresponding Bintray page for that package.  Please visit this Github repository and report the issue there.  For more general questions, please feel free to email us: bincrafters at g mail dot com .
 
 ### Boost Background
-The Boost libraries have historically been released in the form of a single package which contains all of the libraries bundled together.  This provides a number of benefits, but also has significant and well-known disadvantages. For example, one of the oldest and most common requests from the Boost user community has been the ability to consume individual libraries from Boost without getting the entire bundle, something which has always been unsupported. While the Boost team is currently working toward changing this paradigm to something more modular, it will be some time until that effort is complete. Until then, Bincrafters will be publishing each release of the Boost libraries as modular pacakges on our public Conan repository.
+The Boost libraries are some of the most significant and widely-used open-source C++ libraries.  They have historically been released in the form of a single package which contains all of the libraries bundled together.  This provides a number of benefits, but also has significant and well-known disadvantages. For example, one of the oldest and most common requests from the Boost user community has been the ability to consume individual libraries from Boost without getting the entire bundle, something which has always been unsupported. While the Boost team is currently working toward changing this paradigm to something more modular, it will be some time until that effort is complete. Until then, Bincrafters will be publishing each release of the Boost libraries as modular pacakges on our public Conan repository.
 
 ### Conan.io Background
 Conan.io provides a toolset and platform which is uniquely equipped to create and publish the Boost libraries as separate modular packages. The Bincrafters team felt this was a great opportunity, and decided to pursue it. Separating the Boost libraries into packages was difficult, however the flexibility and power of Conan made it not only possible, but also maintainable, which was a key concern at the start of the project.
