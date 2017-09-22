@@ -17,11 +17,17 @@ By default, Conan will only search for packages from the two central repositorie
 	$ conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
 
 ## Understanding Conan Channels
-Conan has a somewhat unique but valuable notion of channels embedded in the package names.  An example package name is
+Conan has a somewhat unique but valuable notion of channels embedded in the package names.  An example package name is:
 
-	$ Boost.System/1.64.0@bincrafters/stable
+	Boost.System/1.64.0@bincrafters/stable
 
-The channel name in this example is "stable".  This is a required field for every package, but it's a completely arbitrary string meaning that authors can put whatever they want.  Bincrafters follows a somewhat standard convention popularized by the Conan teams own packages, which features two possible channel values:  `testing` or `stable`.   Under almost all circumstances, users should prefer the`stable` channel if it exists.  Packages in the `stable` channel are built automatically by Travis and Appveyor, which means they should have a wide variety of precompiled binaries corresponding to the most common build configurations.  In some cases, brand new packages may only feature a `testing` channel, but these packages would not be considered safe for general users anyway and are not supported.  
+The channel name in this example is "stable".  This is a required field for every package, but it's a completely arbitrary string meaning that authors can put whatever they want.  Bincrafters follows a somewhat standard convention utilized by the Conan teams own packages, which features two possible channel values:  `testing` or `stable`.   Under almost all circumstances, users should prefer the`stable` channel if it exists.  In some cases, brand new packages may only feature a `testing` channel, but these packages would not be considered safe for general users anyway and are not supported.  
+
+There is one additional channel notation used by some Bincrafters packages.  This notation is used for publishing packages that are in a pre-release status or containing a critical bug fix which is not yet officially released by the author.  The sources for these packages are usually pulled from a named Github branch, so the branch name is included.  Also, despite not being part of a release yet, in order to allow for proper handling of semantic versioning the package will have a proper version number, which will be that of the next major release (even though it's not out yet).  An example of this notation is:
+
+	Boost.Beast/1.66.0@bincrafters/git-develop
+	
+Much like testing, packages in these types of channels are considered volatile and not fit for production use.  When the next release of the package occurs, users testing htis package should immediately switch to the stable branch.  After one month has passed with an official release, these pre-release packages are likely to be removed from the repository. 
 
 ## Feedback
 If you have questions about the Bincrafters repository, please feel free to email us: bincrafters at g mail dot com
