@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Conan Package - Java 8 and 9 installers'
-tags: [C++, Conan.io]
+tags: [C++, Conan.io, Bintray]
 ---
 
 Bincrafters has now published Conan packages for both the Java 8 and Java 9 installers to our public Conan repository on Bintray.  Indeed it's a bit surprising to have a need to package Java with Conan.io, but it turns out that there are C++ related tools which require Java.  The tool that prompted this package was Google's open-source build system Bazel, which uses Java to compile C++.  Thus, it is primarily intended to be used as a `build_requirement` in a Conan recipe. 
