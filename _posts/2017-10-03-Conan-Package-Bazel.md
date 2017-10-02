@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 'Conan Package - Java 8 and 9 installers'
+title: 'Conan Package - Bazel'
 tags: [C++, Conan.io]
 ---
 
-Bincrafters has now published Conan packages for both the Java 8 and Java 9 installers to our public Conan repository on Bintray.  Indeed it's a bit surprising to have a need to package Java with Conan.io, but it turns out that there are C++ related tools which require Java.  The tool that prompted this package was Google's open-source build system Bazel, which uses Java to compile C++.  Thus, it is primarily intended to be used as a `build_requirement` in a Conan recipe. 
+Bincrafters has now published a Conan package for Google's open-source build system "Bazel" to our public Conan repository on Bintray. Bazel is used as the build system in a number of their popular C++ projects, including Abseil, Protobuf, Tensorflow, and others.  It is primarily intended to be used as a `build_requirement` in Conan recipes for these projects.  
 
 ## Package Reference
 
-    java_installer/8.0.144@bincrafters/stable
-    
+    bazel_installer/0.6.0@bincrafters/stable
+
     
 ## Usage Information  
 
@@ -18,7 +18,7 @@ To get started with using the Bincrafters public Conan repository, please see th
 
 ## Notes About this Package 
 
-This excerpt is taken from [the `README.md` file of the github repository for this package](https://github.com/bincrafters/conan-java_installer). 
+This excerpt is taken from [the `README.md` file of the github repository for this package](https://github.com/bincrafters/conan-java_installer)
 
 This Conan package contains the Java Development Kit (JDK). It is cross platform and is intended to be used as a Conan "build_requires" for C++ projects which require Java to be built. Google's build system "Bazel" is one particular example of a C++ build system which requires Java. Note that this package should not interfere or interact with other installations of Java on the machine. It does not change any persistent environment variables, it only adds/modifies those for the existing process. It passes the required environment variables to packages which require or build_require it through Conan's native env_info functionality.
 

@@ -21,4 +21,4 @@ Notably, it supports websockets, and the [Swagger project](https://swagger.io) h
 Currently, these packages do not yet have a `stable` branch, however we expect to have that completed soon.  In the meantime, we are looking for beta testers to use the packages on the `testing` branch, but with the disclaimer that it should not be used for production code, and is subject to change at any time.  If you do test and have feedback, please open an issue on the github repository for this recipes project.  http://github.com/bincrafters.
 
 ## Disclaimers
-Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers.md). 
+Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers/). 

@@ -24,4 +24,4 @@ Also, we put together [this demo of using Azure IOT SDK via Conan].(https://gith
 The "The Azure IOT SDK for C" is tailored for Microsoft's platform, so if you're interested in this platform and use Conan already, then this Conan package is just an easier way to consume it than using "git" and compiling it manually as indicated by the Azure IOT SDK team.  However, the other libraries that it depends on are generic enough that they should be usable in other C projects.  Particularly the MQTT and AMQP libraries, which are fundamental communication protocols for IOT.  JSON parsing is also a very common and practical operation in an IOT device, so that library could also prove valuable.  Again, because we've packaged those components separately, you can consume them a-la-carte. 
 
 ## Disclaimers
-Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers.md). 
+Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers/). 
