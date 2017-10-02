@@ -8,12 +8,13 @@ Bincrafters has now published Conan packages for both the Java 8 and Java 9 inst
 
 ## Package Reference
 
-    `java_installer/8.0.144@bincrafters/stable `
+    java_installer/8.0.144@bincrafters/stable
     
     
 ## Usage Information  
 
-To get started with using the Bincrafters public Conan repository, please see this post: [Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
+To get started with using the Bincrafters public Conan repository, please see this post:
+[Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
 ## Notes About this Package 
 
