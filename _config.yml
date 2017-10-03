@@ -27,7 +27,7 @@ author:
   email:             bincrafters@gmail.com
 
 # Fallback image and color
-image:               /hydejack/assets/img/nap.jpg
+image:               /hydejack/assets/img/Logo4x4.png
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
