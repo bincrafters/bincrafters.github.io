@@ -2,6 +2,7 @@
 layout: post
 title: 'Conan Package - Bazel'
 tags: [C++, Conan.io, Bintray]
+image: /assets/img/Logo4x4.png
 ---
 
 Bincrafters has now published a Conan package for Google's open-source build system "Bazel" to our public Conan repository on Bintray. Bazel is used as the build system in a number of Google's popular C++ projects, including Abseil, Protobuf, Tensorflow, and others.  It is primarily intended to be used as a `build_requirement` in Conan recipes for these projects.  
