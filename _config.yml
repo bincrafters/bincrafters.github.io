@@ -18,8 +18,8 @@ tagline:             Collective information from Bincrafters team
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Bincrafters is an informal group of Open-Source developers with a shared interest in 
-  creating and curating various binary software packages. 
+  Bincrafters is a group of OSS developers with a shared interest in 
+  making binary software packages. 
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
