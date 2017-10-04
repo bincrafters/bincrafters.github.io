@@ -8,7 +8,7 @@ Bincrafters has now published a Conan package for Google's open-source library "
 
 ## Package Reference
 
-    abseil/latest@bincrafters/stable
+    Abseil/latest@bincrafters/stable
     
 ## Usage Information  
 
@@ -16,6 +16,10 @@ To get started with using the Bincrafters public Conan repository, please see th
 [Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
 ## Notes About this Package 
+
+If you've been following bincrafters the past few days, you've seen our recent releases of a Java package, and Bazel.  Indeed they are both dependencies of Abseil, and those packages were prompted by the desire to use Abseil in our C++ projects.  Abseil was announced just about a week ago, and so it's a testament to the power of Conan.io that we have been able to create and test these three packages in a weeks time. 
+
+Also, even if you are not new to Conan, there are some nuances to the Abseil package users may need to know.  Please read on for more details. 
 
 This excerpt is taken from [the `README.md` file of the github repository for this package](https://github.com/bincrafters/conan-abseil).
 
