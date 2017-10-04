@@ -26,7 +26,7 @@ This Conan.io package aims to make it trivial for C++ developers to incorporate 
 This package contains pre-built binaries of Bazel for Windows, Mac, and Linux, and includes an option to include an embedded JDK if the local machine does have a suitable version already. It intended to serve as a building block for future packages which will contain Google's open-source C++ libraries. These future Conan packages will reference this package as a build_requirement. This means that whenever one of these other Google libraries needs to be compiled, Bazel will be automatically downloaded and used to perform the build. This download will only occur once for the machine however, as Bazel will be cached in the local Conan cache for reuse.
 
 ## Status - Stable
-This package jas been tested and is currently considered stable.  Please report any issues through the github repository for this recipe. 
+This package has been tested and is currently considered stable.  Please report any issues through the github repository for this recipe. 
 
 ## Disclaimers
 Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers/). 
