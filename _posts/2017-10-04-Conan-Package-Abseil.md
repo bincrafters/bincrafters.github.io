@@ -5,6 +5,10 @@ tags: [C++, Conan.io, Bintray]
 ---
 
 Bincrafters has now published a Conan package for Google's open-source library "Abseil" to our public Conan repository on Bintray. Abseil was just announced by Titus Winters last week at CPPCon 2017, and provides a number of mature utililty types and functions.  Abseil is a bit unique in that Google has chosen not to implement semantic versioning and promote the use of the library strictly by following the master branch of their GIT repository, a strategy described by Winters as "Live at Head. 
+---
+If you've been following bincrafters the past few days, you've seen our recent releases of a Java package, followed by Bazel.  Some may have wondered why anyone would create and publish these packages as their purpose in Conan was not obvious.  The reason was Abseil.  Since the announcement of Abseil, we wanted to try it out and help others try it out more easily via Conan.  However, you can't just package Abseil, you have to build it first which is non-trivial.  Still, we decided it was worth the effort to do it right and and actually use the build system supported by Google, and create the actual dependency chain in Conan.  There are some efforts that aim to build Bazel with CMake, and that's probably a good thing.  However, we felt that when it comes to building and packaging Google libraries in a repeatable and supportable way, it was best to embrace Bazel in our packaging pipeline.  In fact, we discovered some pretty impressive things with Bazel, so it was for the best.  Also, with Google releasing other great OSS libraries like Tensorflow and Protobuf to name a few, we now have the tools to release packages for these projects much more easily.  So, stay tuned if you're interested in these projects, and please let us know what libraries you want via twitter or trello (see sidebar). 
+
+A final note, Abseil was announced just about a week ago, and so it's a testament to the power of Conan.io that we have been able to create and test these three packages in a weeks time. It really is a brilliant platform. 
 
 ## Package Reference
 
@@ -17,9 +21,7 @@ To get started with using the Bincrafters public Conan repository, please see th
 
 ## Notes About this Package 
 
-If you've been following bincrafters the past few days, you've seen our recent releases of a Java package, and Bazel.  Indeed they are both dependencies of Abseil, and those packages were prompted by the desire to use Abseil in our C++ projects.  Abseil was announced just about a week ago, and so it's a testament to the power of Conan.io that we have been able to create and test these three packages in a weeks time. 
-
-Also, even if you are not new to Conan, there are some nuances to the Abseil package users may need to know.  Please read on for more details. 
+Even if you are not new to Conan, there are some nuances to the Abseil package users may need to know.  Please read on for more details. 
 
 This excerpt is taken from [the `README.md` file of the github repository for this package](https://github.com/bincrafters/conan-abseil).
 
