@@ -18,4 +18,4 @@ The second reason is perhaps more fundamental and practical.  To build larger li
 
 ## Summary
 
-Over time, Conan Center will feature many great packages for C and C++ libraries, enabling users to leverage dependencies exclusively from that one repository. The Bincrafters repository aims to support that initiative by contributing as many packages to it as we can, and by using our packages and providing feedback, developers can play a vital role in the success of this effort. 
+Over time, Conan Center will feature many great packages for C and C++ libraries, enabling users to leverage dependencies exclusively from that one repository. The Bincrafters repository aims to support that initiative by contributing as many packages to it as we can.  If you wish to help, the easiest way is to try using our packages in your projects, and providing feedback on github. If you want to do more, reach out to us via email or on the C++ community slack channel in #conan.  
