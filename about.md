@@ -12,7 +12,7 @@ Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor.
 
 ## See Our Work
 
-> [github](https://github.com/bincrafters) - [bintray](https://bintray.com/bincrafters) - [travis](https://travis-ci.org/bincrafters) - [appveyor](https://appveyor.com/bincrafters)
+> [github](https://github.com/bincrafters) - [bintray](https://bintray.com/bincrafters) - [travis](https://travis-ci.org/bincrafters) - appveyor : see github readmes
 {:.lead}
 
 

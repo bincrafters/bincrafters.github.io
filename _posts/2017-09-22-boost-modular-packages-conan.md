@@ -32,12 +32,12 @@ It is very highly recommended that you get the latest version of Conan.io 0.27.0
 Conan allows users to pass options to for each package upon install. The list of options for Boost packages are: 
 
 |Package        |Option Name		| Default Values   | Possible Value    
-|---------------|---------------------|-------------------|------------------
-|All				|shared					| True                | True/False         
-|Python			|python					| "python"          | string/path to local python install 
-|IOstreams		|use_zlib				| True                | True/False         
-|IOstreams		|use_bzip2				| True                | True/False  
-|Regex			|use_icu					| True                | True/False  
+|---------------|-------------------|-------------------|------------------
+|All				 |shared				| False                | True/False         
+|Python		 |python				| "python"          | string/path to local python install 
+|Iostreams	 |use_zlib				| True                | True/False         
+|Iostreams	 |use_bzip2			| True                | True/False  
+|Regex			 |use_icu				| True                | True/False  
 
 *Note: The default option for "python" will search environment variables for a python install, and should find it by default on most systems*
 
