@@ -4,7 +4,7 @@ title: 'Conan Packages - Boost v1.65.1'
 tags: [C++, Conan.io, Bintray]
 ---
 
-A few weeks ago, we announced a set of [Modular Packages on Conan.io for the Boost C++ Libraries](boost-modular-packages-conan).  The original set of packages were for Boost v1.64.0 only, and we've been working ever since to finish packaging v1.65.1 which was released just over a month ago.  We are happy to announce that v1.65.1 is now available in the Bincrafters public repository.  
+A few weeks ago, we announced a set of [Modular Packages on Conan.io for the Boost C++ Libraries](boost-modular-packages-conan).  The original set of packages included Boost v1.64.0 only, and we've been working ever since to finish packaging v1.65.1.  We are happy to announce that the v1.65.1 packages are now available in the [Bincrafters public repository](https://bintray.com/bincrafters/public-conan).  
 
 ## Package Reference
 
