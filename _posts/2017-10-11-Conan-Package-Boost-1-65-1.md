@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Conan Package - Boost 1.65.1'
+title: 'Conan Packages - Boost 1.65.1'
 tags: [C++, Conan.io, Bintray]
 ---
 
