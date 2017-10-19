@@ -27,7 +27,7 @@ Conan allows users to pass options to for each package upon install. The list of
 |Option Name		 | Default Values   | Possible Value                      | Description
 |-------------------|-------------------|----------------------------------------------------------
 |shared				 | True                  | True/False                            | Use as a shared library or static library
-|with_msys		 | False                 | True/False                            | Supplies the MSYS Conan package to use at build time
+|with_msys		 | True                 | True/False                            | Supplies the MSYS Conan package to use at build time
 |with_data			 | False                 | True/False                            | Build the ICU sample data with default settings. 
 |data_packaging	 | archive             | shared, static, files, archive     | See [ICU Data Packaging documentation](http://userguide.icu-project.org/packaging)
 
