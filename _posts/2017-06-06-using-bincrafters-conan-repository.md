@@ -23,8 +23,13 @@ Conan has a somewhat unique but valuable notion of channels embedded in the pack
 
 The channel name in this example is "stable".  This is a required field for every package, but it's a completely arbitrary string meaning that authors can put whatever they want.  Bincrafters follows a somewhat standard convention utilized by the Conan teams own packages, which features two possible channel values:  `testing` or `stable`.   Under almost all circumstances, users should prefer the`stable` channel if it exists.  In some cases, brand new packages may only feature a `testing` channel, but these packages would not be considered safe for general users anyway and are not supported.  
 
+## Packages without official releases
+The notation shown below is used for publishing packages where the original library does not make official releases. Thus we use a datestamp to show when the package was created:
+
+	gsl_microsoft/20171020@bincrafters/stable
+	
 ## Packages without semantic versioning
-The notation shown below is used for publishing packages where the original library does not use semantic versioning. Thus we use a datestamp to show when the package was created:
+The same notation is used for publishing packages where the original library does have official releases, but does not use semantic versioning. In this case, the version number is the one provided from the original library.  In the case of `msys2_installer`, the library happens to use a datestamp:
 
 	msys2_installer/20161025@bincrafters/stable 
 	
@@ -33,6 +38,8 @@ In some cases a version alias of "latest" is added to packages ([Conan Alias fea
 ).  Users can reference this version in requirements as shown in the example below to get the latest release without specifying a specific version or range: 
 
 	msys2_installer/latest@bincrafters/stable 
+	
+*Note that using the `latest` will cause your projects to download and use an updated version as soon as it becomes available.  Such library updates can potentially be breaking, so users should consider this before referencing the `latest` alias in a project.*
 	
 ## Prerelease packages	
 Another notation is used for publishing packages that are in a pre-release status or containing a critical bug fix which is not yet officially released by the author.  The sources for these packages are usually pulled from a named Github branch, so the branch name is included.  Also, despite not being part of a release yet, in order to allow for proper handling of semantic versioning the package will have a proper version number, which will be that of the next major release (even though it's not out yet).  An example of this notation is:
