@@ -39,7 +39,7 @@ In some cases a version alias of "latest" is added to packages ([Conan Alias fea
 
 	msys2_installer/latest@bincrafters/stable 
 	
-*Note that using the `latest` will cause your projects to download and use an updated version as soon as it becomes available.  Such library updates can potentially be breaking, so users should consider this before referencing the `latest` alias in a project.*
+*Note that using the `latest` alias will cause your projects to download and use an updated version as soon as it becomes available.  Such library updates can potentially be breaking, so users should consider this before referencing the `latest` alias in a project.*
 	
 ## Prerelease packages	
 Another notation is used for publishing packages that are in a pre-release status or containing a critical bug fix which is not yet officially released by the author.  The sources for these packages are usually pulled from a named Github branch, so the branch name is included.  Also, despite not being part of a release yet, in order to allow for proper handling of semantic versioning the package will have a proper version number, which will be that of the next major release (even though it's not out yet).  An example of this notation is:
