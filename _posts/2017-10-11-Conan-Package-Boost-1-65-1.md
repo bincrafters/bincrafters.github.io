@@ -4,7 +4,7 @@ title: 'Conan Packages - Boost v1.65.1'
 tags: [C++, Conan.io, Bintray]
 ---
 
-A few weeks ago, we announced a set of [Modular Packages on Conan.io for the Boost C++ Libraries](_posts/boost-modular-packages-conan).  The original set of packages included Boost v1.64.0 only, and we've been working ever since to finish packaging v1.65.1.  We are happy to announce that the v1.65.1 packages are now available in the [Bincrafters public repository](https://bintray.com/bincrafters/public-conan).  
+A few weeks ago, we announced a set of [Modular Packages on Conan.io for the Boost C++ Libraries](https://bincrafters.github.io/2017/09/22/boost-modular-packages-conan/).  The original set of packages included Boost v1.64.0 only, and we've been working ever since to finish packaging v1.65.1.  We are happy to announce that the v1.65.1 packages are now available in the [Bincrafters public repository](https://bintray.com/bincrafters/public-conan).  
 
 ## Package Reference (Example)
 
@@ -13,12 +13,12 @@ A few weeks ago, we announced a set of [Modular Packages on Conan.io for the Boo
 ## Usage Information  
 
 To get started with using the Bincrafters public Conan repository, please see this post:
-[Bincrafters Conan Instructions](_posts/using-bincrafters-conan-repository)
+[Bincrafters Conan Instructions](https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository)
 
 The package names are all Proper_Case with underscores when a name has two words (eg. `Poly_Collection`).  If you want to double check the package reference name, you can search the [Bincrafters public repository](https://bintray.com/bincrafters/public-conan).
 
 ## Notes About this Package 
-You can find general notes about the Boost packages in the [original blog post](_posts/boost-modular-packages-conan).  However, below you can find notes regarding any differences between the previous version and the current version. 
+You can find general notes about the Boost packages in the [original blog post](https://bincrafters.github.io/2017/09/22/boost-modular-packages-conan/).  However, below you can find notes regarding any differences between the previous version and the current version. 
 
 ### New Libraries
 
@@ -53,4 +53,4 @@ There were several package level fixes that were made for 1.65.1 and then backpo
 This package has been tested and is currently considered stable.  Please report any issues through the github repository for this recipe. 
 
 ## Disclaimers
-Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](_posts/bincrafters-package-disclaimers/). 
+Prior to using Bincrafters packages, please see the [Bincrafters Disclaimer Page](https://bincrafters.github.io/2017/05/01/bincrafters-package-disclaimers/). 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Bincrafters Packages - Disclaimers'
-tags: []
+tags: [Bintray, Conan.io]
 ---
 
 ## Licensing
