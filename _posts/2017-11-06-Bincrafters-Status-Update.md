@@ -20,7 +20,8 @@ Qt was at the top of the list, which is unlikely to surprise anyone.  For those 
 As for a timeline, we can't begin to provide one yet.  The size and complexity of the project appears to be on par with the packaging of Boost, which took a group of us about 3 months to get right. Also, with Boost we had the distinct advantage of having a member of the team who is one of the foremost experts in the building of the boost libraries: @grafikrobot. Currently, we don't have anyone from Qt on the team. We also don't know what sorts of beasts await us on that journey.  Even with Boost we had plenty of surprises, so it would be naive to think Qt will go any differently. 
 
 ### Other Packages From Poll
-The poll also really gave us a good indication of where to focus future efforts as well.  In fact, several of them had already been completed and just not publicized, others were in progress, and others are now on our backlog.  Unfortunately, Pollly doesn't have any advanced features like adding a note/comment or marking anything as complete, so here are some updates:
+The poll also really gave us a good indication of where to focus future efforts as well.  In fact, several of them had already been completed and just not publicized, others were in progress, and others are now on our backlog.  Unfortunately, Pollly doesn't have any advanced features like adding a note/comment or marking anything as complete, so here are some updates:  
+
 
 |Complete        |In Progress      |On Horizon          
 |---------------|----------------|------------------
