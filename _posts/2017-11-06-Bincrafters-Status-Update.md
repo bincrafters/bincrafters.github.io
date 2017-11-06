@@ -34,6 +34,7 @@ The poll also really gave us a good indication of where to focus future efforts 
 |                     |                     | folly
 |                     |                     | libtorrent
 |                     |                     | cpp-etherium
+
 ## Other Recent Packages 
 In addition to the poll, each team member has packages they need for their own projects, so we work on those as well.  Here are some recent packages generated from that effort, which are done or almost done.  
 
