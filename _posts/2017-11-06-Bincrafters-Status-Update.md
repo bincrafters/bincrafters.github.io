@@ -21,8 +21,9 @@ As for a timeline, we can't begin to provide one yet.  The size and complexity o
 
 ### Other Packages From Poll
 The poll also really gave us a good indication of where to focus future efforts as well.  In fact, several of them had already been completed and just not publicized, others were in progress, and others are now on our backlog.  Unfortunately, Pollly doesn't have any advanced features like adding a note/comment or marking anything as complete, so here are some updates:
-|Complete        |In Progress      |On Horizon          |
-|---------------|----------------|------------------|
+
+|Complete        |In Progress      |On Horizon          
+|---------------|----------------|------------------
 |RxCPP            |   libcurl           |  libjson        
 |fmtlib             |  grpc              | libcrypto
 |websocketpp   |  protobuff      | botan
