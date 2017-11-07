@@ -18,8 +18,20 @@ Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor.
 
 ## Active Members
 
-> [uilianries](https://github.com/uilianries) - [grafikrobot](https://github.com/grafikrobot) - [solvingj](https://github.com/solvingj) - [SSE4](https://github.com/SSE4) - [sigmoidal](https://www.npcglib.org/~stathis/blog) - [theirix](https://github.com/theirix) - [sztomi](https://github.com/sztomi)
+[uilianries](https://github.com/uilianries)
+[grafikrobot](https://github.com/grafikrobot)
+[solvingj](https://github.com/solvingj)
+[SSE4](https://github.com/SSE4)
+[sigmoidal](https://www.npcglib.org/~stathis/blog)
+[theirix](https://github.com/theirix)
+[sztomi](https://github.com/sztomi)
+[sourcedelica](https://github.com/sourcedelica)
+[zamazan4ik](https://github.com/zamazan4ik)
+[eliaskousk](https://github.com/eliaskousk)
+[chriscoy82](chriscoy82)
+
 {:.lead}
+
 
 
 ## Contact Information
