@@ -13,7 +13,7 @@ Recently, we posted an open poll on [Pollly](https://poll.ly/), asking what pack
 
 [https://poll.ly/#/2qBaRenB](https://poll.ly/#/2qBaRenB)
 
-The poll will continue to remain active, and will continue to watch to see if any new ones rise to the top.  We may very well package some of those libraries with only 1-3 votes, we just wanted to get the pulse of whatever community the poll was able to reach. 
+The poll will continue to remain active, and we'll continue to watch to see if any new ones rise to the top.  We may very well package some of those libraries with only 1-3 votes, we just wanted to get the pulse of whatever community the poll was able to reach. 
 ### Qt
 Qt was at the top of the list, which is unlikely to surprise anyone.  For those interested, we WILL be packaging Qt, and we will be attempting to modularize everything just as we did with Boost.  
 
