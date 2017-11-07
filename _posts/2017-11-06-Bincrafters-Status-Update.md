@@ -31,7 +31,6 @@ The poll also really gave us a good indication of where to focus future efforts 
 |cpprestsdk      |  zeromq        | sqlite
 |                     |  log4cplus      | tensorflow
 |                     |  spdlog          | glm
-|                     |                     | sqlite
 |                     |                     | crypto++
 |                     |                     | folly
 |                     |                     | libtorrent
