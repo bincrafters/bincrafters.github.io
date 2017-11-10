@@ -10,7 +10,7 @@ With the latest version of Conan, Bincrafters had to rethink our common workflow
 
 ## Biggest Change - Save `conan create` for last
 
-Previously, when you reached a point with a new recipe that you thought it was ready to "try", we would go straight to `conan create`, and run repeatedly until we had things working.  This is no longer the recommended approach, and there are some benefits with the new approach. At a high level, the `conan create` command was doing all its work inside your local cache directories, which was a bit non-trivial to find and browse to, and when starting a package, it's really not ready to go there anyway.  
+Previously, when we reached a point with a new recipe that you thought it was ready to "try", we would go straight to `conan create`, and run repeatedly until we had things working.  This is no longer the recommended approach, and there are some benefits with the new approach. At a high level, the `conan create` command was doing all its work inside your local cache directories, which was a bit non-trivial to find and browse to, and when starting a package, it's really not ready to go there anyway.  
 
 ## Testing a Recipe - Step by Step 
 So, the new workflow encourages users to do trial-and-error in a local sub-directory relative to their recipe, much like how developers typically test building their projects with other build tools.  Also, the new strategy is to test the `conanfile.py` methods individually during this phase, which is something that was harder than it should have been in the past.  Below are the commands listed in the order we use them now: 
