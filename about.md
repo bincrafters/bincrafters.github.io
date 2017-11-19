@@ -26,19 +26,19 @@ Bincrafters relies on recurring monthly donations from commercial organizations 
 
 ## Active Members
 
-[uilianries](https://github.com/uilianries)
-[grafikrobot](https://github.com/grafikrobot)
-[solvingj](https://github.com/solvingj)
-[SSE4](https://github.com/SSE4)
-[sigmoidal](https://www.npcglib.org/~stathis/blog)
-[theirix](https://github.com/theirix)
-[sztomi](https://github.com/sztomi)
-[sourcedelica](https://github.com/sourcedelica)
-[zamazan4ik](https://github.com/zamazan4ik)
-[eliaskousk](https://github.com/eliaskousk)
-[dariuszostolski](https://github.com/dariuszostolski)
-[fmorgner](https://github.com/fmorgner)
-[chriscoy82](chriscoy82)
+[uilianries](https://github.com/uilianries)  
+[grafikrobot](https://github.com/grafikrobot)  
+[solvingj](https://github.com/solvingj)  
+[SSE4](https://github.com/SSE4)  
+[sigmoidal](https://www.npcglib.org/~stathis/blog)  
+[theirix](https://github.com/theirix)  
+[sztomi](https://github.com/sztomi)  
+[sourcedelica](https://github.com/sourcedelica)  
+[zamazan4ik](https://github.com/zamazan4ik)  
+[eliaskousk](https://github.com/eliaskousk)  
+[dariuszostolski](https://github.com/dariuszostolski)  
+[fmorgner](https://github.com/fmorgner)  
+[chriscoy82](chriscoy82)  
 
 {:.lead}
 
