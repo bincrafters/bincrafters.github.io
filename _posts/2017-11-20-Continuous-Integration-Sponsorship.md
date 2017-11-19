@@ -10,9 +10,9 @@ Bincrafters is dedicated to creating, publishing, and maintaining Conan packages
 Travis, Appveyor, and Bintray all provide amazing public services for free.  We don't know how they do it, but we're grateful. It is these services which have enabled Bincrafters to exist in the first place.  We've been hitting the ceiling with each of these services on a regular basis, and engineered around them as best we could.  With free plans, Appveyor runs 1 concurrent job, Travis runs a few for linux, but Mac builds are bottlenecked to 2.  Also, Mac builds have regularly experienced issues which have caused them to be delayed multiple days.   In the face of continued growth, the limitations are simply untenable. 
 
 Here you can view the link to Appveyor and Travis pricing and capacity limitations:  
-*[Appveyor Pricing](https://www.appveyor.com/pricing)  
-*[Travis Pricing](https://travis-ci.com/plans)  
-*[Bintray Pricing](https://bintray.com/account/pricing)  
+	[Appveyor Pricing](https://www.appveyor.com/pricing)  
+	[Travis Pricing](https://travis-ci.com/plans)  
+	[Bintray Pricing](https://bintray.com/account/pricing)  
 
 As all the paid plans are tailored for non-OSS use, we have recently reached out to both Appveyor and Travis asking for custom pricing.  Something like an OSS+ plan, which simply increases concurrent job capacity. We will post an update here if either can accomodate, but in the meantime we will proceed as if we can only choose from the existing paid plans. 
 
