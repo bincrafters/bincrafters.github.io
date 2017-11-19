@@ -10,7 +10,7 @@ With the latest version of Conan, Bincrafters had to rethink our common workflow
 
 ## Biggest Change - Save `conan create` for last
 
-Previously, when we reached a point with a new recipe that you thought it was ready to "try", we would go straight to `conan create`, and run repeatedly until we had things working.  This is no longer the recommended approach, and there are some benefits with the new approach. At a high level, the `conan create` command was doing all its work inside your local cache directories, which was a bit non-trivial to find and browse to, and when starting a package, it's really not ready to go there anyway.  
+Previously, when we reached the point with a new recipe that we thought it was ready to "try" creating, we would go straight to `conan create` and run that command repeatedly until we had things working.  This is no longer the recommended approach and there are some benefits with the new approach. At a high level, the `conan create` command was doing all its work inside your local cache directories, which was a bit non-trivial to find and browse to.  Also, when doing the initial trial-and-error on a package it's really not fit to go to be stored in the local cache anyway.  
 
 ## Testing a Recipe - Step by Step 
 So, the new workflow encourages users to do trial-and-error in a local sub-directory relative to their recipe, much like how developers typically test building their projects with other build tools.  Also, the new strategy is to test the `conanfile.py` methods individually during this phase, which is something that was harder than it should have been in the past.  Below are the commands listed in the order we use them now:  
@@ -24,14 +24,14 @@ The strategy here is that you're testing your source method in isolation, and do
 ## `conan install`
 Conan has multiple methods and attributes which relate to dependencies (all the ones with the word `require` in the name). The command `conan install` activates all them:  
 	
-	$ conan install  . --install-folder=tmp/build --profile XXXX
+	$ conan install  . --install-folder=tmp/build [--profile XXXX]
 
 This also generates `conaninfo.txt` and `conanbuildinfo.xyz` (extension depends on generator you've used) in the temp folder, which will be needed for the next step.  Once you've got this command working with no errors, you can move on to testing the `build()` method. 
 	
 ## `conan build`
 The build method takes a path to a folder that has sources (basically an "input" folder), and a path to a folder where it will perform the build (basically an "output" folder).  
 	
-	$ conan build . --source-folder=/tmp/source --build-folder=/tmp/build
+	$ conan build . --source-folder=tmp/source --build-folder=tmp/build
 
 This is pretty strightforward, but it does add a very helpful new shortcut for people who are packaging their own library. Now, developers can make changes in their normal source directory and just pass that path as the `--source-folder`. 
 
