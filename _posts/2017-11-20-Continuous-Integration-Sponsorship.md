@@ -21,10 +21,5 @@ As all the paid plans are tailored for non-OSS use, we have recently reached out
 For paid plans on each of these services which would increase our concurrent build capacity in a meaningful way, we will need approximately $750 USD each month.   We don't expect any single organization to contribute this amount.  Instead we are hoping to find several organizations who can commit to smaller monthly contributions. 
 
 ## In Return for Contribution
-We want to show appreciation for any amount of financial support, so we have added a section on the "About" page on our blog to feature and promote such sponsors.  As with any charitable donation, the idea behind showcasing sponsors publicly is that it might help bring positive attention to those sponsors, and possibly even business. 
-
-
-
-
-
+We want to show appreciation for any amount of financial support, so we have added a section on [the About page on our blog](https://bincrafters.github.io/about/) to feature, thank, and promote such sponsors.  As with any charitable donation, the idea behind showcasing sponsors publicly is that it might help bring positive attention to those sponsors, and possibly even business. 
 
