@@ -22,5 +22,9 @@ For paid plans on each of these services which would increase our concurrent bui
 ## In Return for Contribution
 We want to show appreciation for any amount of financial support, so we have added a section on [the About page on our blog](https://bincrafters.github.io/about/) to feature, thank, and promote such sponsors.  As with any charitable donation, the idea behind showcasing sponsors publicly is that it might help bring positive attention to those sponsors, and possibly even business. 
 
+## How to Contribute
+If you represent an organization who is interested in sponsoring, please reach out to us via email using our __`bincrafters` gmail account__. 
+
+
 ## Other Support
 We also want to let the community of followers on Twitter and elsewhere that your support and promotion also matters, both on social media, and locally among developers you know or work with.  The rate of adoption and improvement with both Conan and Bincrafters is significantly impacted by word-of-mouth communication, coming from developers who actually use and enjoy Conan.  So, continued thanks to our users. 
