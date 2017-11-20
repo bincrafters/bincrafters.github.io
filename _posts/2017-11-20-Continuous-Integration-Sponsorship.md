@@ -25,7 +25,7 @@ For paid plans on each of these services which would increase our concurrent bui
 We want to show appreciation for any amount of financial support, so we have added a section on [the About page on our blog](https://bincrafters.github.io/about/) to feature, thank, and promote such sponsors.  As with any charitable donation, the idea behind showcasing sponsors publicly is that it might help bring positive attention to those sponsors, and possibly even business. 
 
 ## How to Contribute
-If you represent an organization who is interested in sponsoring, please reach out to us via email using our __**`bincrafters` gmail account**__. 
+If you represent an organization who is interested in sponsoring, please reach out to us via email using our __bincrafters gmail account__. 
 
 
 ## Other Support
