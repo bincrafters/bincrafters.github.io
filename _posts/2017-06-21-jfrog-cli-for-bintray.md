@@ -2,6 +2,7 @@
 layout: post
 title: 'Using the JFrog CLI for Bintray'
 tags: [Bintray]
+comments: true
 ---
 
 The JFrog CLI can be used with all of JFrog's products: Artifactory, Bintray, Mission Control, and Xray.  This post focuses on it's usefulness to Bintray users who are in the business of packaging and uploading binaries on a regular basis. 

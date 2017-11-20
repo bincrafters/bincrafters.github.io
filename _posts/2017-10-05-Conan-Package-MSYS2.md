@@ -2,6 +2,7 @@
 layout: post
 title: 'Conan Package - MSYS2'
 tags: [C++, Conan.io, Bintray]
+comments: true
 ---
 
 MSYS2 is software distribution and a building platform for Windows. It provides a Unix-like environment, a command-line interface and a software repository making it easier to install, use, build and port software on Windows. Many C++ projects are setup to be built with MSYS2 when built on Windows, rather than MSBuild. It is primarily intended to be used as a `build_requirement` in Conan recipes for these projects.  One project that requires MSYS2 to build from sources is Google's build system Bazel. 

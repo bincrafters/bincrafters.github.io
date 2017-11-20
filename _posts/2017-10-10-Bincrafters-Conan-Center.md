@@ -2,6 +2,7 @@
 layout: post
 title: 'Bincrafters Packages and Conan Center'
 tags: [C++, Conan.io, Bintray]
+comments: true
 ---
 
 "Conan Center" is the moderated central repository for Conan packages hosted by Bintray.  With Conan Center, community members need only to check a box on their package in the web portal and it will be submitted for moderation and inclusion.  This strategy is very elegant, and actually has been used to great success for several years with their moderated central maven respository for Java packages known as "JCenter".  

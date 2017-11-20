@@ -2,6 +2,7 @@
 layout: post
 title: 'Real-World Packaging C++ with Conan.io'
 tags: [Conan.io, C++]
+comments: true
 ---
 
 Over the past year, each member of the Bincrafters team has worked extensively with the Conan platform on packaging a diverse array of C and C++ libraries.   We've had the opportunity to dig very deep into advanced features such as custom generators, conan package tools for CI automation, and a great deal of debugging.  Here are some of the things we've learned about advanced packaging at scale.  

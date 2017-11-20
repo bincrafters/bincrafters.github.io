@@ -2,6 +2,7 @@
 layout: post
 title: 'Boost 1.64.0 - Modular Packages on Conan.io'
 tags: [C++, Conan.io, Bintray, Boost]
+comments: true
 ---
 
 Starting with Boost 1.64.0, the Bincrafters team will now publish each of the Boost C++ libraries as separate packages on Conan.io. With this, developers can now reference the specific Boost libraries they want to use as dependencies rather than referencing the entire Boost collection. 

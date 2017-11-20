@@ -2,6 +2,7 @@
 layout: post
 title: 'Conan Package - IBM ICU'
 tags: [C++, Conan.io, Bintray]
+comments: true
 ---
 
 Bincrafters has now published a Conan package for IBM's open-source libraries known as "ICU" to our public Conan repository on Bintray. ICU stands for "International Components for Unicode" and is a mature and portable set of libraries for software internationalization (I18N) and globalization (G11N) which implement the Unicode Standard, giving applications the same results on all platforms.

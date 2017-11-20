@@ -2,6 +2,7 @@
 layout: post
 title: 'Bintray Entitlements - A Modern Way to Profit on Code'
 tags: [Bintray]
+comments: true
 ---
 
 If you make modern applications or software libraries and are having difficulty with the "profit" part, the Bintray entitlements system might be able to help you. 

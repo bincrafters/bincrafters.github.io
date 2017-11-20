@@ -2,6 +2,7 @@
 layout: post
 title: 'Packaging Native Binaries'
 tags: [C++, Conan.io]
+comments: true
 ---
 
 In the realm of software development, managing libraries in precompiled binary format is non-trivial.  Java jars and .NET nupkgs have a fair bit of flexibility and customizability, and with flexibility comes complexity.  However, the complexity surrounding these intermediate binaries pales in comparison to that surrounding precompiled native binaries.  This complexity is so overwhelming, that historically it was considered impossible or at least impractical by most.  This post highlights a few of the dimensions of complexity which exist when packaging native binaries, and explains the modern and innovative approach used by Conan.io to address them.  While this post is focused on C++ as a use-case, much of it applies to other native languages as well, including Rust, Go, D, and so on. 

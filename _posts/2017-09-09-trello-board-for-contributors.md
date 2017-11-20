@@ -2,6 +2,7 @@
 layout: post
 title: 'Public Trello Board - Need Contributors'
 tags: [C++, Conan.io, Boost]
+comments: true
 ---
 
 We've added a [New Trello Board](https://trello.com/b/iFeFCPwa) to house all the packages that we discover we need to create some day to serve as dependencies, but that we don't really have time to build right now.  We hope that community members can work on these over time. 
