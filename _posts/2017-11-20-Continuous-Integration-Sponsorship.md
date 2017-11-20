@@ -19,7 +19,7 @@ Travis has not responded yet.
 For Bintray, $150.00 / month will give us everything we need. 
 
 ## Total Monthly Funding Target
-For paid plans on each of these services which would increase our concurrent build capacity in a meaningful way, we will need __**a total of approximately $500 USD each month**__.  We don't expect any single organization to contribute this amount.  Instead we are hoping to find several organizations who can commit to smaller monthly contributions. 
+For paid plans on each of these services which would increase our concurrent build capacity in a meaningful way, we will need __a total of approximately $500 USD each month__.  We don't expect any single organization to contribute this amount.  Instead we are hoping to find several organizations who can commit to smaller monthly contributions. 
 
 ## In Return for Contribution
 We want to show appreciation for any amount of financial support, so we have added a section on [the About page on our blog](https://bincrafters.github.io/about/) to feature, thank, and promote such sponsors.  As with any charitable donation, the idea behind showcasing sponsors publicly is that it might help bring positive attention to those sponsors, and possibly even business. 
