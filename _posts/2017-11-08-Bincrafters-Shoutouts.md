@@ -2,6 +2,7 @@
 layout: post
 title: 'Bincrafters Shoutouts'
 tags: [Conan.io, Bintray]
+comments: true
 ---
 
 The Bincrafters team recently hit double digits, which feels like a big accomplishment for us.  Each member has brought a unique combination of experience, insight, and Conan recipe's to the table.  This has allowed us to start checking multiple packages off our list each week for the last two months.  It's also allowed us to level-up our packaging game in a few cases. This post is just to highlight how valuable and appreciated everyone's time is, before we start on a next trial of strength... packaging Qt. 

@@ -2,6 +2,7 @@
 layout: post
 title: 'Bincrafters Status Update'
 tags: []
+comments: true
 ---
 
 We've received a lot of really great feedback from the C++ community about the Conan packages we've been publishing over the past few months. We are really grateful to the community and the Conan team for the support, and we had a few other updates we wanted to share. 

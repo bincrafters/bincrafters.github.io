@@ -2,6 +2,7 @@
 layout: post
 title: 'Cross-Platform Command-Line Toolset for OS Packaging'
 tags: [Bintray, Cross-Platform]
+comments: true
 ---
 A github user known as @mh-cbon has created a wonderful set of tools for packaging and general release management.  They are all written in Go, but they are all built and packaged as native binaries used at the CLI, so they can be used to package and release software written in any language.  The toolset can be found here:  [mh-cbon's Packaging Toolset - Overview and Tutorial](https://github.com/mh-cbon/go-github-release)
 

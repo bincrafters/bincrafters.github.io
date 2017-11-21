@@ -2,6 +2,7 @@
 layout: post
 title: 'Conan Package - Abseil'
 tags: [C++, Conan.io, Bintray]
+comments: true
 ---
 
 Bincrafters has now published a Conan package for Google's open-source library "Abseil" to our public Conan repository on Bintray. Abseil was just announced by Titus Winters last week at CPPCon 2017, and provides a number of mature utililty types and functions.  Abseil is a bit unique in that Google has chosen not to implement semantic versioning and promote the use of the library strictly by following the master branch of their GIT repository, a strategy described by Winters as "Live at Head."

@@ -2,6 +2,7 @@
 layout: post
 title: 'Updated Conan Package Flow'
 tags: [Conan.io]
+comments: true
 ---
 
 With the latest version of Conan, Bincrafters had to rethink our common workflows for developing packages.  We were a bit confused at first, and had to ask the Conan team for advice to get things streamlined. We wanted to share the current workflow with the community in case other packagers are also struggling to figure out the best flow with the updated command-line options.  

@@ -2,6 +2,7 @@
 layout: post
 title: 'Using Bincrafters Public Conan Repository'
 tags: [Conan.io, Bintray, C++]
+comments: true
 ---
 
 Bincrafters is posting new packages and/or versions to our public Conan repository every week. We've provided some instructions below for users who wish to start using them. 

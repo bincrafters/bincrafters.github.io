@@ -2,6 +2,7 @@
 layout: post
 title: 'Conan Package - Microsoft C++ REST SDK'
 tags: [C++, Conan.io, Bintray]
+comments: true
 ---
 
 Bincrafters has now published a Conan package for Microsoft C++ REST SDK to our public Conan repository on Bintray. It is a project which offers both HTTP client and server functionality, including websockets support.  It features a modern asynchronous API design in C++ with Boost Asio.  It is cross-platform, supporting Windows, Linux, and Mac, as well as IOS and Android.  The C++ REST SDK is widely used among C++ projects which have need to interact with REST services.  [A swagger generator for the C++ REST SDK](https://github.com/swagger-api/swagger-codegen/tree/master/samples/client/petstore/cpprest) has also been constructed by the community, which can generate the C++ code needed to compile a strongly-typed C++ SDK for any REST API that publishes a swagger specifications.  This makes it an obvious choice for interacting with any such REST API. 
