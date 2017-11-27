@@ -7,7 +7,7 @@ bincrafters:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: The Bincrafters team builds and packages binaries for the OSS community.
+  about: The Bincrafters team builds binary software packages for the OSS community.
     
   # This photo will be used in the about section
   picture:
