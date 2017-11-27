@@ -4,7 +4,7 @@ title: 'Conan Profiles and Build Requires'
 tags: [Conan.io]
 ---
 
-One really under-discussed feature of Conan is it's flexible profile system. This post will demonstrate how to use these profiles to manage your build environment much more effectively than you could without, by allowing you to handle the build tools you use with Conan the same way you handle dependencies.  
+One highly under-discussed feature of Conan is it's flexible profile system. This post will demonstrate how to use these profiles to manage your build environment much more effectively than you could without, by allowing you to handle the build tools you use with Conan the same way you handle dependencies.  
 
 ## Profiles Primer
 Conan does a lot of great things automatically.  For example, discovering what your environment has for building C and C++, and creating a default profile for it.  The discovery works so well, many people don't realize the profile system exists and is doing it's thing.  Nonetheless, every time you do something with Conan, it uses the information contained in the default profile to execute your build.  Once you know about profiles, you can specify a custom profile for each Conan operation via the CLI arguments.  You can list, read, and manipulate profiles (including the default) with the `conan profile` command, or you can simply edit them as text files under your home directory: `.conan\profiles\`
