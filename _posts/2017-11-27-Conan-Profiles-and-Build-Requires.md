@@ -43,7 +43,6 @@ cmake_installer:version=3.7.0
 ```
 
 Below are the respective `package_info()` methods. You can easily see what environment variables each sets.  
-
 #### cygwin_installer ####
 ```
     def package_info(self):
@@ -57,23 +56,22 @@ Below are the respective `package_info()` methods. You can easily see what envir
         mod_path = os.path.join(self.package_folder, "share", "cmake-%s" % str(self.options.version)[0:3], "Modules")
         self.env_info.CMAKE_MODULE_PATH = mod_path
 ```
-
 ## Current Build Tools Packages ##
 Here is an informal list of all the build tools that you can now install with Conan simply by adding them to your profile: 
 
 ### Conan Center ###
-# Strawberry Perl
-# MinGW
-# CMake
-# 7Zip
-# Nasm
+* Strawberry Perl
+* MinGW
+* CMake
+* 7Zip
+* Nasm
 
 ### Bincrafters ###
-# MSYS2
-# Cygwin
-# Bazel 
-# GYP
-# Ninja
-# Java
+* MSYS2
+* Cygwin
+* Bazel 
+* GYP
+* Ninja
+* Java
 
 Note, several of the Bincrafters tools are still largely untested, and therefor only have a "testing" channel at this time. 
