@@ -23,7 +23,7 @@ Senior developers often have these problems well-tackled on their dev machines. 
 
 ## Example
 	
-Here's an example of my default profile, where I've added `cygwin_installer` and `cmake_installer` as `build_requires`.  Now when I run Conan install or Conan create, it will automatically download Cygwin and CMake, extract them to directories in my local cache, and set the necessary environment variables to build with them.  Note that the `cmake_installer` package uses a unique version strategy, where the version of CMake is specified as an option to the package. 
+Here's an example of my default profile, where I've added `cygwin_installer` and `cmake_installer` as `build_requires`.  Now when I run Conan install or Conan create, it will automatically download Cygwin and CMake, extract them to directories in my local cache, and set the necessary environment variables to build with them.  Note that the `cmake_installer` package uses a unique version strategy, where the version of CMake is specified as an option to the package. Most other build tool packages use the tool version number in the package version number. 
 
 ```
 [build_requires]
