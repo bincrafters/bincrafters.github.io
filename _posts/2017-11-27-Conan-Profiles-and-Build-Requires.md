@@ -20,3 +20,31 @@ So, the magic here is that Conan profiles have a dedicated `build_requires` fiel
 
 ## New Developers
 Senior developers often have these problems well-tackled on their dev machines.  They might even have a complete series of VM's with a vast array of configurations and tools to rival a corporate CI infrastructure.  However, some developers might not (for example, junior developers trying to get into C and C++).  Thus, this feature can be a huge time saver for anyone who needs to build for multiple configurations, tools, and versions, but doesn't have (or doesn't want to continue to maintain) a complex environment with multiple parallel tools side by side on their dev machine.  
+
+## Example
+	
+It's very simple.  Here's an example of my default profile, where I've added `cygwin_installer` as a `build_requires`.  Now when I run Conan install or Conan create, it will automatically download Cygwin and set the necessary environment variables to build with it:
+
+```
+[build_requires]
+cygwin_installer/2.9.0@bincrafters/stable
+[settings]
+arch=x86_64
+build_type=Release
+os=Windows
+compiler=Visual Studio
+compiler.runtime=MD
+compiler.version=15
+[options]
+[scopes]
+[env]
+```
+
+Below is the `package_info()` method from the recipe for the Cygwin package. You can easily see what environment variables it sets.  
+
+```
+    def package_info(self):
+        ...
+	    self.env_info.CYGWIN_ROOT = self.package_folder
+	    self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
+```
