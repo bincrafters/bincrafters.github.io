@@ -23,11 +23,12 @@ Senior developers often have these problems well-tackled on their dev machines. 
 
 ## Example
 	
-It's very simple.  Here's an example of my default profile, where I've added `cygwin_installer` as a `build_requires`.  Now when I run Conan install or Conan create, it will automatically download Cygwin and set the necessary environment variables to build with it:
+Here's an example of my default profile, where I've added `cygwin_installer` and `cmake_installer` as `build_requires`.  Now when I run Conan install or Conan create, it will automatically download Cygwin and CMake, extract them to directories in my local cache, and set the necessary environment variables to build with them:
 
 ```
 [build_requires]
 cygwin_installer/2.9.0@bincrafters/stable
+cmake_installer/1.0@bincrafters/stable
 [settings]
 arch=x86_64
 build_type=Release
@@ -36,17 +37,25 @@ compiler=Visual Studio
 compiler.runtime=MD
 compiler.version=15
 [options]
+cmake_installer:version=3.7.0
 [scopes]
 [env]
 ```
 
-Below is the `package_info()` method from the recipe for the Cygwin package. You can easily see what environment variables it sets.  
+Below are the respective `package_info()` methods. You can easily see what environment variables each sets.  
 
 ```
     def package_info(self):
         ...
 	    self.env_info.CYGWIN_ROOT = self.package_folder
 	    self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
+```
+```
+    def package_info(self):
+		self.env_info.CMAKE_ROOT = self.package_folder
+		mod_path = os.path.join(self.package_folder, "share", "cmake-%s" % str(self.options.version)[0:3],
+								"Modules")
+		self.env_info.CMAKE_MODULE_PATH = mod_path
 ```
 
 ## Current Build Tools Packages
