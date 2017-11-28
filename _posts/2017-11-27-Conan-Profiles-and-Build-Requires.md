@@ -30,7 +30,7 @@ Here's an example of my default profile, where I've added `cygwin_installer` and
 cygwin_installer/2.9.0@bincrafters/testing
 cmake_installer/1.0@conan/stable
 [options]
-cmake_installer:version=3.7.0
+cmake_installer:version=3.8.2
 [settings]
 arch=x86_64
 build_type=Release
@@ -74,4 +74,5 @@ Here is an informal list of all the build tools that you can now install with Co
 * Ninja
 * Java
 
-Note, several of the Bincrafters tools are still largely untested, and therefor only have a "testing" channel at this time. 
+## Note ##
+Most native installers for build tools append their installed paths to the `PATH` environment variable, because it is often necessary for other tools which look for them.  And, Conan supports appending the PATH variable from the `pacakge_info()` method of a recipe.  However, there are currently some nuances with this in Conan, in particular with tools that have filenames which conflict with others, such as `link.exe` and `bash.exe`.  Thus, Bincrafters is currently working on a strategy for handling these scenarios.  Once we have everything ironed out, we will have an option to append the `PATH` variable from our build tools packages.
