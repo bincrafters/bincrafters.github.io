@@ -44,18 +44,18 @@ cmake_installer:version=3.7.0
 
 Below are the respective `package_info()` methods. You can easily see what environment variables each sets.  
 
+#### cygwin_installer ####
 ```
     def package_info(self):
-        ...
 	    self.env_info.CYGWIN_ROOT = self.package_folder
 	    self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
 ```
+#### cmake_installer ####
 ```
     def package_info(self):
-		self.env_info.CMAKE_ROOT = self.package_folder
-		mod_path = os.path.join(self.package_folder, "share", "cmake-%s" % str(self.options.version)[0:3],
-								"Modules")
-		self.env_info.CMAKE_MODULE_PATH = mod_path
+        self.env_info.CMAKE_ROOT = self.package_folder
+        mod_path = os.path.join(self.package_folder, "share", "cmake-%s" % str(self.options.version)[0:3], "Modules")
+        self.env_info.CMAKE_MODULE_PATH = mod_path
 ```
 
 ## Current Build Tools Packages
