@@ -46,8 +46,8 @@ Below are the respective `package_info()` methods. You can easily see what envir
 #### cygwin_installer ####
 ```
     def package_info(self):
-	    self.env_info.CYGWIN_ROOT = self.package_folder
-	    self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
+        self.env_info.CYGWIN_ROOT = self.package_folder
+        self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
 ```
 #### cmake_installer ####
 ```
