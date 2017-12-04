@@ -27,7 +27,7 @@ Here's an example of my default profile, where I've added `cygwin_installer` and
 
 ```
 [build_requires]
-cygwin_installer/2.9.0@bincrafters/testing
+cygwin_installer/2.9.0@bincrafters/stable
 cmake_installer/1.0@conan/stable
 [options]
 cmake_installer:version=3.8.2
