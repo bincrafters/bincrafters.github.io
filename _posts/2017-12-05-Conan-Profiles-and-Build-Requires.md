@@ -42,20 +42,23 @@ compiler.version=15
 [env]
 ```
 
-Below are the respective `package_info()` methods. You can easily see what environment variables each sets.  
+Here is an example of a `package_info()` method from the `cygwin_installer` package. You can easily see what effect it has on environment variables.  
 #### cygwin_installer ####
 ```
     def package_info(self):
-        self.env_info.CYGWIN_ROOT = self.package_folder
-        self.env_info.CYGWIN_BIN = os.path.join(self.package_folder, 'bin')
+        cygwin_root = self.package_folder
+        cygwin_bin = os.path.join(cygwin_root, "bin")
+
+        self.output.info("Creating CYGWIN_ROOT env var : %s" % cygwin_root)
+        self.env_info.CYGWIN_ROOT = cygwin_root
+        
+        self.output.info("Creating CYGWIN_BIN env var : %s" % cygwin_bin)
+        self.env_info.CYGWIN_BIN = cygwin_bin
+
+        self.output.info("Appending PATH env var with : " + cygwin_bin)
+        self.env_info.path.append(cygwin_bin)
 ```
-#### cmake_installer ####
-```
-    def package_info(self):
-        self.env_info.CMAKE_ROOT = self.package_folder
-        mod_path = os.path.join(self.package_folder, "share", "cmake-%s" % str(self.options.version)[0:3], "Modules")
-        self.env_info.CMAKE_MODULE_PATH = mod_path
-```
+
 ## Current Build Tools Packages ##
 Here is an informal list of all the build tools that you can now install with Conan simply by adding them to your profile: 
 
@@ -73,6 +76,8 @@ Here is an informal list of all the build tools that you can now install with Co
 * GYP
 * Ninja
 * Java
+* Yasm
+* Ragel
 
 ## Note ##
-Most native installers for build tools append their installed paths to the `PATH` environment variable, because it is often necessary for other tools which look for them.  Conan natively supports appending the PATH variable from the `pacakge_info()` method of a recipe.  However, there are currently some nuances with this in Conan.  For example, some variables need to be "appended", and some need to be "prepended".  Some tools that have filenames which conflict with others, such as `link.exe` and `bash.exe`.  There are other cases as well.  Thus, Bincrafters is currently working on a flexible strategy for handling these scenarios.  Once we have everything ironed out, we will have an option to update the `PATH` variable in a controlled way with our build tools packages.
+Most native installers for build tools append their installed paths to the `PATH` environment variable, because it is often necessary for other tools which look for them.  Conan natively supports appending the PATH variable from the `pacakge_info()` method of a recipe.  However, there are currently some nuances with this in Conan.  For example, some variables need to be "appended", and some need to be "prepended".  Some tools that have filenames which conflict with others, such as `link.exe` and `bash.exe`.  There are other cases as well.  Thus, Bincrafters is currently working on a flexible strategy for handling these scenarios.  Once we have everything ironed out, we will have an option to update the `PATH` variable in a controlled way with our build tools packages. Ideally, this will be a feature added directly to Conan. 
