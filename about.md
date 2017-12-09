@@ -24,7 +24,7 @@ Bincrafters relies on recurring monthly donations from commercial organizations 
 
 |Sponsor Name| Monthly Donation| Sponsor URL| Sponsor Description| 
 |----------------|--------------------|---------------|-----------------------|
-|JFrog Bintray  | $100					| https://bintray.com| SAAS Package Hosting for a myriad of package and repository types, free for OSS|
+|JFrog Bintray  | $100					| [https://bintray.com](https://bintray.com)| SAAS Package Hosting for a myriad of package and repository types, free for OSS|
 
 ## Active Members  
 [uilianries](https://github.com/uilianries)  
