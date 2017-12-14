@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'CI Sponsorship Update - OpenCollective'
+title: 'CI Update - JFrog and OpenCollective'
 tags: [Bintray, Conan.io]
 ---
 
-Bincrafters recently announced our intentions to take a step forward as an OSS group.  This included seeking sponsorhip and setting up an account to receive donations.  Our efforts were successful, and this post just explains a few things about our progress. 
+Bincrafters recently announced our intentions to take a step forward as an OSS group and seek sponsorship.  We're very excited to announce that JFrog has graciously pledged to cover all our current CI costs via our new OpenCollective account.  
 
 ## OpenCollective
 If you're not familiar with OpenCollective, it's a service which sprung up specifically to help OSS teams like Bincrafters deal with funding.  We had originally joined Patreon to accept donations.  Patreon is a great service, however we had some concerns about how to manage the money as an OSS team (and the related taxes).  This video describes exactly the challenges we were antipcating when we started thinking about accepting donations, along with the additional services OpenCollective provides.  
