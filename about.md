@@ -20,7 +20,7 @@ Appveyor : Does not provide summary page.
 Bincrafters would not exist if not for Github, Bintray, Travis-CI, and Appveyor. Each plays a critical role in the packaging pipeline, and we are very grateful to these companies for providing these services. 
 
 ## Sponsors  
-Bincrafters relies on recurring monthly donations from commercial organizations to pay for increased concurrent build capacity with our CI providers.  Our blog post about sponsorship here: [Bincrafters CI Sponsorship](https://bincrafters.github.io/2017/11/20/Continuous-Integration-Sponsorship/).  Below is a list of our current sponsors, to whom we are extremely grateful:
+Bincrafters relies on recurring monthly donations from commercial organizations to pay for increased concurrent build capacity with our CI providers.  Our blog post about sponsorship here: [Bincrafters CI Sponsorship](https://bincrafters.github.io/2017/11/20/Continuous-Integration-Sponsorship/).  Below is a list of our current corporate sponsors pledging $100/month or more (and to whom we are extremely grateful):
 
 |Sponsor Name| Monthly Donation| Sponsor URL| Sponsor Description| 
 |----------------|--------------------|---------------|-----------------------|
