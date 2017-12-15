@@ -33,8 +33,8 @@ There are some new options on some of the packages, so below is the complete and
 |Python		|python				| "python"          | string/path to local python install 
 |Iostreams	|use_zlib				| True                | True/False         
 |Iostreams	|use_bzip2			| True                | True/False  
-|Regex			|use_icu				| True                | True/False  
-|Locale	(new)|use_icu				| True                | True/False  
+|Regex			|use_icu				| False                | True/False  
+|Locale	(new)|use_icu				| False                | True/False  
 
 
 In the upcoming version of Conan (0.28) a new feature has been added which solves a significant problem with the Boost packages.  Users can now specify options using a wildcard syntax.  For Boost, this is most useful when specifying the `shared` option.  Thus, users can now specify that all Boost libraries should be compiled statically with one option statement as follows: 
