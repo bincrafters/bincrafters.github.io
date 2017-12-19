@@ -16,9 +16,9 @@ If you follow our twitter you saw our recent campaign to reach 100 stars on Gith
 [https://opencollective.com/bincrafters](https://opencollective.com/bincrafters)
 
 ##  Corporate Sponsorship from JFrog!
-Shortly after announcing our fund-raising drive, we were contacted by the JFrog/Bintray team.  They have agreed to provide ongoing monthly sponsorship for our CI services!  This is extremely good timing because we have a number of major projects planned for January, and our CI was going to be the bottleneck.  With the sponsorship from JFrog, we've been able to dramatically streamline our package and release process. 
+Shortly after announcing our fund-raising drive, we were contacted by the JFrog/Bintray team.  They have agreed to provide ongoing monthly sponsorship for our CI services!  This is extremely good timing because we have a number of major projects planned for January. Our existing CI plans were insufficient and we were struggling with slow build times. Since we upgraded our CI services (sponsored by JFrog), our overall build times got much faster, and the whole process was more streamlined.
 
-Currently, we're set to move forward on the premium Appveyor services, but we're having a bit of trouble with Travis at the moment.  They've confirmed that there is no plan for Bincrafters, because we want to have public repositories but also pay for guaranteed build slots for MacOS builds.  The good news is they're working on changing their plan structure to possibly accommodate our type of organization, so stay tuned. 
+We've moved forward on the premium Appveyor services, but we're having a bit of trouble with Travis at the moment.  They've confirmed that there is no plan for Bincrafters, because we want to have public repositories but also pay for guaranteed build slots for MacOS builds.  The good news is they're working on changing their plan structure to possibly accommodate our type of organization, so stay tuned. 
 
 ## Other Sponsors
 We are also honored to announce pledges from several different members of the Conan community. We were astonished to see that several of our own packagers pledged monthly financial contributions on top of the time they already spend!  This was both amazing and inspiring.  
