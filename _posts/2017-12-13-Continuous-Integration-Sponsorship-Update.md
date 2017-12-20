@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'CI Update - JFrog and OpenCollective'
-tags: [Bintray, Conan.io]
+tags: [Bintray, Conan.io, C++]
 ---
 
 Bincrafters recently announced our intentions to take a step forward as an OSS group and seek sponsorship.  We're very honored and excited to announce that JFrog has graciously pledged to cover all our current CI costs via our new OpenCollective account!
