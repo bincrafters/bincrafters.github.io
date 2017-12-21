@@ -6,7 +6,7 @@ tags: [Bintray, Conan.io]
 
 We've finally settled on a new place to house all our various technical documentation for both package consumers and package creators.  
 
-http://bincrafters.readthedocs.io/en/latest
+[http://bincrafters.readthedocs.io/en/latest](http://bincrafters.readthedocs.io/en/latest)
 
 ## ReadTheDocs.org
 After battling a bit with the scaleability issues of the Github wiki, and then various documents inside a github repository, we realized the answer had been in front of us all along.  The documentation platform for Conan.io has been very stable and effective for us, and the integration with Github enabled all of us to make various contributions and corrections via GIT (the most effective known mechanism for this kind of collaboration). So, obviously we signed up for the same platform for Bincrafters. 
