@@ -6,7 +6,7 @@ tags: [Conan.io]
 
 This is a short PSA to all Conan packagers to help avoid a category of pitfall we've seen several times.  When you start working with Conan, you discover that they use a python class as their descriptor format.  This is absolutely a great design, however, there are things that work in a normal python class, which won't work in a ConanFile. 
 
-Each Method Invocation = New Instance
+## Each Method Invocation = New Instance
 Python does not load your `conanfile.py` into memory, and then execute each method sequentially.  It looks like it does in the logs, but it doesn't.  A new instance is created for each method execution, the method is executed, and the instance is destroyed.  The documentation provides guidelines on things you should not do because of this behavior (such as share runtime state between method calls) but it's still easy to fall into normal OOP patterns.  So, here's some pseudocode that you can use to update your mental model.  We hope it will help other packagers avoid common pitfalls. 
 
 Here's how you probably think about it
