@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Thinking About conanfile.py'
+title: 'Thinking about conanfile.py'
 tags: [Conan.io]
 ---
 
