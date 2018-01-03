@@ -35,10 +35,10 @@ You might be happy and think you created a great package.  Unfortunately, it's f
 
 
 ## Different Conan Commands
-The challenge is that there are many different Conan commands which utilize different methods from the recipe, often in isolation.  For example, the `source()`, `build()` methods won't be called at all when you run `conan package` command.  Thus, the recipe in the example above will not work with the `conan build` and `conan package` commands. Obviously, it's really annoying to have recipe's for which some commands work and not others.  The fact that the `conan create` recipe works fine adds to the problem a bit, because it means many new packagers won't discover the problem until some later date.  Often times, it's other package users and future maintainers of a recipe who discover the problem, at which point it's all different kinds of bad. 
+The challenge is that there are many different Conan commands which utilize different methods from the recipe, often in isolation.  For example, the `source()`, `build()` methods won't be called at all when you run `conan package` command.  Thus, the recipe in the example above will not work with `conan package` command (nor `conan build`). Obviously, it's really annoying to have recipe's for which some commands work and not others.  The fact that the `conan create` recipe works fine adds to the problem a bit, because it means many new packagers won't discover the problem until some later date.  Often times, it's other package users and future maintainers of a recipe who discover the problem at which point it's all different kinds of bad. 
 
 ## Updating Your Mental Model
-The best approach is simply to imagine that a new instance of your ConanFile is created for each method execution, and the instance is destroyed immediately after the method completes. The `conan create` command doesn't work like this, but several others do.  So, if you think of it this way you will avoid the biggest pitfall in writing Conan recipes.  Here's some pseudocode that demonstrates it visually:
+The best approach for packagers is simply to imagine that a new instance of your ConanFile is created for each method execution, and the instance is destroyed immediately after the method completes. The `conan create` command doesn't work like this, but several others do.  So, if you think of it this way you will avoid the biggest pitfall in writing Conan recipes.  Here's some pseudocode that demonstrates it visually:
 
 Here's how you probably think about it now: 
 
