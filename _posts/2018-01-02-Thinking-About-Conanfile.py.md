@@ -29,7 +29,7 @@ class MyPackageConan(ConanFile):
         use_some_dynamic_path(some_dynamic_path)
 ```
 
-If you have the recipe above and run `conan create .`, your recipe will behave as expected.  The `source()` `build()` and `package()` methods will successfully share state, and the example will be able to successfully build and package based on the `some_dynamic_path` variable that was set in the `source()` method. 
+If you have the recipe above and run `conan create . yourname/testing`, your recipe will behave as expected.  The `source()` `build()` and `package()` methods will successfully share state, and the example will be able to successfully build and package based on the `some_dynamic_path` variable that was set in the `source()` method. 
 
 You might be happy and think you created a great package.  Unfortunately, it's flawed. 
 
