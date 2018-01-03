@@ -21,10 +21,10 @@ class MyPackageConan(ConanFile):
 		# source stuff
 
 	def build(self):
-		# source stuff
+		# build stuff
 
 	def package(self):
-		# source stuff
+		# package stuff
 ```	
 		
 Here's how you could think about it instead, because this is how Conan loads and executes it: 
@@ -47,7 +47,7 @@ class MyPackageConan(ConanFile):
 	# etc...
 
 	def build(self):
-		# source stuff
+		# build stuff
 ```	
 
 ```python
@@ -57,7 +57,7 @@ class MyPackageConan(ConanFile):
 	# etc...
 	
 	def package(self):
-		# source stuff
+		# package stuff
 		
 ```	
 
