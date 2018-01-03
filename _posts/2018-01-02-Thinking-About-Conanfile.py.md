@@ -4,7 +4,7 @@ title: 'Thinking about conanfile.py'
 tags: [Conan.io]
 ---
 
-This is a short PSA to all Conan packagers to help avoid a category of pitfall we've seen several times.  When you start working with Conan, you discover that they use a python class as their descriptor format.  This is absolutely a great design, however, there are things that work in a normal python class, which won't work in a ConanFile. 
+This is a short PSA to all Conan packagers to help avoid a category of pitfall we've seen several times.  When you start working with Conan, you discover that they use a python class as their descriptor format.  This is absolutely a great design, however there are a few common pitfalls to be aware of, the most important of which is sharing state between methods. 
 
 ## The Trap: A Simple Example
 
@@ -29,7 +29,7 @@ class MyPackageConan(ConanFile):
         use_some_dynamic_path(some_dynamic_path)
 ```
 
-If you have the recipe above and run `conan create .`, your recipe will behave as expected.  The `build()` and `package()` will successfully share state, and the example will be able to successfully build and package based on the `some_dynamic_path` variable that was set in the `source()` method. 
+If you have the recipe above and run `conan create .`, your recipe will behave as expected.  The `source()` `build()` and `package()` methods will successfully share state, and the example will be able to successfully build and package based on the `some_dynamic_path` variable that was set in the `source()` method. 
 
 You might be happy and think you created a great package.  Unfortunately, it's flawed. 
 
