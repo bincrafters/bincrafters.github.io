@@ -18,15 +18,15 @@ class MyPackageConan(ConanFile):
 	
     def source(self):
         self.something = "Hello"
-		some_dynamic_path = find_some_dynamic_path()
+        some_dynamic_path = find_some_dynamic_path()
 
     def build(self):
-        print self.something # prints "Hello"
-		use_some_dynamic_path(some_dynamic_path)
+        print(self.something) # prints "Hello"
+        use_some_dynamic_path(some_dynamic_path)
 
     def package(self):
-        print self.something # prints "Hello"
-		use_some_dynamic_path(some_dynamic_path)
+        print(self.something) # prints "Hello"
+        use_some_dynamic_path(some_dynamic_path)
 ```
 
 If you have the recipe above and run `conan create .`, your recipe will behave as expected.  The `build()` and `package()` will successfully share state, and the example will be able to successfully build and package based on the `some_dynamic_path` variable that was set in the `source()` method. 
