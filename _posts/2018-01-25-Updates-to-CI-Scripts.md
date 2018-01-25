@@ -20,7 +20,10 @@ As a result, we urge anyone using TravisCI to build Conan packages for OSX to re
 ## TravisCI and CircleCI for OSX
 Currently, the Bincrafters team is exploring several other CI services to grapple with the load of OSX builds we generate.  TravisCI has served us well, by performing thousands of builds at no cost to us or our community (it's incredible really).  We will continue to use them for Linux builds for the foreseeable future.  The TravisCI team has indicated that they are working on infrastructure changes to improve the situation around OSX builds for OSS projects. We hope this involves enabling us to pay for dedicated OSX builds similar to how Appveyor works for Windows builds, but they have not been willing to make any commitments around this.  
 
-In the meantime, we have found CircleCI's "2.0" builds with their OSX capabilities to be the closest thing to what we need.  We are currently engaged in a trial of their service, and will be building a vast number of Conan packages on CircleCI over the next two weeks.  
+In the meantime, we have found CircleCI's "2.0" builds with their OSX capabilities to be the closest thing to what we need.  We are currently engaged in a trial of their service, and will be building a vast number of Conan packages on CircleCI over the next two weeks.  Of note, at this time CircleCI does not support XCode 7x, only 8x and 9x. So, we may choose to end support for XCode 7x builds in our packages.  If this affects you, please let us know by opening a ticket here: 
+
+[https://github.com/bincrafters/community/issues](https://github.com/bincrafters/community/issues)
+
 
 ## Template Updates for Bincrafters Packagers 
 
