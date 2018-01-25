@@ -27,7 +27,7 @@ Bincrafters maintains a Github repository strictly for holding package "Template
 
 [https://github.com/bincrafters/conan-templates](https://github.com/bincrafters/conan-templates)
 
-This repository is used by members of the Bincrafters team, and community members who want to build packages consistent with the standards and conventions of Bincrafters.  If you use this repository, please note that due to the situations explained above, numerous files relating to CI have changed, including the `README.md file`, which has badges for each CI provider we use. 
+This repository is used by members of the Bincrafters team, and community members who want to build packages consistent with the standards and conventions of Bincrafters.  If you use this repository, please note that due to the situations explained above, numerous files relating to CI have changed, including the `README.md` file, which has badges for each CI provider we use. 
 
 It's a good practice to check this repository every time you start a new package, and any time you go back to update or refresh an existing package, because it receives minor updates on a regular basis, and major updates at least once a month. 
 
