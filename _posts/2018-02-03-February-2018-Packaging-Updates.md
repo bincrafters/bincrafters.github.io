@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'February 2018 Packaging Updates
+title: 'February 2018 Packaging Updates'
 tags: [Conan.io, Bintray, C++]
 ---
 
