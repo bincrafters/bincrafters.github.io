@@ -4,7 +4,7 @@ title: 'February 2018 Packaging Updates'
 tags: [Conan.io, Bintray, C++]
 ---
 
-January 2018 proved to be one of the busiest and most challenging months ever for Bincrafters.  As stated previously, we've been toiling away at improving our quality and working through the results of the "great pakage refresh" which we started in December.  We've now weathered the storm, and are looking forward to making a number of great announcements in the weeks to come. Here's a few right now. 
+January 2018 proved to be one of the busiest and most challenging months ever for Bincrafters.  As stated previously, we've been toiling away at improving our quality and working through the results of the "great package refresh" which we started in December.  We've now weathered the storm, and are looking forward to making a number of great announcements in the weeks to come. Here's a few right now. 
 
 ## Strategic Movement on Conan Center  
 If you follow [@conan_io](https://twitter.com/conan_io) or [@bincrafters](https://twitter.com/bincrafters) on twitter, you have probably started to see some new package announcements for Conan Center.  If not, we encourage you to take a trip over there and browse the current listing.  In any case, what we really want to point out is the bigger picture of what's taking place with regard to prioritization of packages.  Broadly speaking, Bincrafters have begun by submitting a number of packages in the following categories: 
@@ -25,7 +25,7 @@ These might not seem terribly exciting to Conan users because in many cases they
 Again, these libraries can be described as "foundational", but perhaps just a slightly higher layer than logging and testing.  These libraries also have the distinction of being used by multiple members of the Bincrafters team on their own projects.  As stated on the Bincrafters blog, we put significant priority on the packages our contributors need to use, because meeting our own packaging needs is what brought us together around Conan in the first place.  
 
 ## An Update on Frameworks and Super-Libraries  
-Boost, Qt, wxWidgets, FFMpeg, Xiph, OpenCV, Folly, EASTL, XFML, CGAL... etc. 
+Boost, Qt, wxWidgets, FFMpeg, Xiph, OpenCV, Folly, CGAL... etc. 
 
 These are the projects that we know users really struggle with building and maintaining.  Now that our CI is really streamlined, flexible, and maintainable, we actually start to approach these projects with maximum efficiency and a sense of confidence. Also, crucially, there have been significant improvements and patches in Conan itself which will dramatically streamline the way we write some of these recipes. 
 
