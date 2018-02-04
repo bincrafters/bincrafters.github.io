@@ -7,7 +7,7 @@ tags: [Conan.io, Bintray, C++]
 January 2018 proved to be one of the busiest and most challenging months ever for Bincrafters.  As stated previously, we've been toiling away at improving our quality and working through the results of the "great package refresh" which we started in December.  We've now weathered the storm, and are looking forward to making a number of great announcements in the weeks to come. Here's a few right now. 
 
 ## Strategic Movement on Conan Center  
-If you follow [@conan_io](https://twitter.com/conan_io) or [@bincrafters](https://twitter.com/bincrafters) on twitter, you have probably started to see some new package announcements for Conan Center.  If not, we encourage you to take a trip over there and browse the current listing.  In any case, what we really want to point out is the bigger picture of what's taking place with regard to prioritization of packages.  Broadly speaking, Bincrafters have begun by submitting a number of packages in the following categories: 
+If you follow [@conan_io](https://twitter.com/conan_io) or [@bincrafters](https://twitter.com/bincrafters) on twitter, you have probably started to see some new package announcements for Conan Center.  If not, we encourage you to take a trip over there and browse the current listing.  In any case, what we really want to point out is the bigger picture of what's taking place with respect to the prioritization of packages.  Broadly speaking, Bincrafters have begun by submitting a number of packages in the following categories: 
 
 * Unit Testing
 * Logging
