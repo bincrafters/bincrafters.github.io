@@ -4,7 +4,9 @@ title: 'Conan Packages - Boost v1.66.0'
 tags: [C++, Conan.io, Boost, Bintray]
 ---
 
-After much delay, the Bincrafters team has completed the Boost 1.66.0 modular packages, and they're finally ready for consumption.  In case you're new to Bincrafters, you can find the link to the repository here:  [Bincrafters Public Conan Repository on Bintray](https://bintray.com/bincrafters/public-conan).  Along with this release, we're also announcing a general request for assistance from the Conan user community.  Please read on for more details.  
+After much delay, the Bincrafters team has completed the Boost 1.66.0 modular packages, and they're finally ready for consumption.  In case you're new to Bincrafters, you can find the link to the repository here:   
+[Bincrafters Public Conan Repository on Bintray](https://bintray.com/bincrafters/public-conan)  
+Along with this release, we're also announcing a general request for assistance from the Conan user community.  Please read on for more details.  
 
 ## Call to Action
 If you want to help support the Bincrafters team and the modular Boost packages, now is your chance.  We have a very simple need, and so the contributions we are looking for are extremely small.  In short, we need tests. Boost has ~35 libraries which require compilation and we've written tests for each of those.  However, there are 100 header-only libraries, and so far we've only created `test_packages` for a few of them.   So, if you want to contribute and know how to write a `test_package` for Conan, please choose a library from the list at the bottom of this post. 
