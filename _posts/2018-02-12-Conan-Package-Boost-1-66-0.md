@@ -11,7 +11,7 @@ If you want to help support the Bincrafters team and the modular Boost packages,
 
 ## Conan Center
 We've been asked about Conan Center many times, and the answer is Yes!  We do plan on submitting to Conan Center in the near future, and we have the support of the Conan team.  In the meantime, the more usage feedback we get in our github issues list and slack channel the better: 
-https://github.com/bincrafters/community/issues
+[https://github.com/bincrafters/community/issues](https://github.com/bincrafters/community/issues)
 
 ## Usage Notes
 There are ~135 libraries in Boost, so obviously there are a few nuances related to the packages which users might want to know.  We've created a page in our documentation to capture all these usage details, and will continue to add to it over time.  
@@ -30,8 +30,7 @@ Here are some highlights:
 We are currently in the process of rebuilding 1.65.1 and 1.64.0 with the new changes.  We hope this will be ready by 2/20/2018.   
 
 ## List of Header-Only Libraries Which Need Testing
-Please feel free to fork and add a `test_package`, and submit a PR back.  
-
+Please feel free to fork and add a `test_package`, then submit a PR back for review.    
 ### Notes: 
 - Please submit the PR back to `testing/1.66.0` branch.
 - Please do not use the example from the libraries documentation. 
