@@ -15,6 +15,8 @@ If you want to help support the Bincrafters team and the modular Boost packages,
 We've been asked about Conan Center many times, and the answer is Yes!  We do plan on submitting to Conan Center in the near future, and we have the support of the Conan team.  In the meantime, the more usage feedback we get in our github issues list and slack channel the better: 
 [https://github.com/bincrafters/community/issues](https://github.com/bincrafters/community/issues)
 
+Also, it's worth noting that one of the requirements for libraries to be included in Conan Center is a proper `test_package`. 
+
 ## Usage Notes
 There are ~135 libraries in Boost, so obviously there are a few nuances related to the packages which users might want to know.  We've created a page in our documentation to capture all these usage details, and will continue to add to it over time.  
 
