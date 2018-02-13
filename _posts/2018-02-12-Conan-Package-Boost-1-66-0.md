@@ -41,7 +41,7 @@ Please feel free to fork and add a `test_package`, then submit a PR back for rev
 
 Example: [Boost Random test_package](https://github.com/bincrafters/conan-boost_random/blob/stable/1.66.0/test_package/test_package.cpp)
 
-1. [https://github.com/bincrafters/conan-boost_callable_traits](https://github.com/bincrafters/conan-boost_callable_traits)
+1. (done) [https://github.com/bincrafters/conan-boost_callable_traits](https://github.com/bincrafters/conan-boost_callable_traits)
 1. [https://github.com/bincrafters/conan-boost_compatibility](https://github.com/bincrafters/conan-boost_compatibility)
 1. [https://github.com/bincrafters/conan-boost_config](https://github.com/bincrafters/conan-boost_config)
 1. [https://github.com/bincrafters/conan-boost_predef](https://github.com/bincrafters/conan-boost_predef)
