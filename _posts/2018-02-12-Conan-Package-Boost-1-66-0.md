@@ -37,6 +37,8 @@ Please feel free to fork and add a `test_package`, then submit a PR back for rev
 - Please submit the PR back to `testing/1.66.0` branch.
 - Please do not use the example from the libraries documentation. 
 - Please write some minimum amount of code to instantiate some class from the library. 
+- A "Done" tag will be added beside the URL's below as we receive PR's. 
+
 Example: [Boost Random test_package](https://github.com/bincrafters/conan-boost_random/blob/stable/1.66.0/test_package/test_package.cpp)
 
 [https://github.com/bincrafters/conan-boost_callable_traits](https://github.com/bincrafters/conan-boost_callable_traits)
