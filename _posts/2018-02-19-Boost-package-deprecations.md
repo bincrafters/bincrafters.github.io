@@ -1,18 +1,15 @@
 ---
 layout: post
-title: 'Breaking Package Changes - Lowercase'
+title: 'Announcement: Boost package deprecations'
 tags: [C++, Conan.io, Boost, Bintray]
 ---
 
-This is an announcement of upcoming breaking changes to some Bincrafters packages. Most importantly, the boost modular packages for v1.64.0 and v1.65.1. In short, we are switching to a new naming convention featuring all lowercase characters and underscores. 
+This is an announcement of the planned deprecation and replacement of the Bincrafters modular boost packages. Specifically, the boost modular packages for v1.64.0 and v1.65.1 featuring upper-case characters and dots will be removed.  Users must switch to the new naming convention featuring all lower-case characters and underscores. 
 
 ## Example  
 
-Old: `Boost.System/1.66.0@bincrafters/stable`
-New: `boost_system/1.66.0@bincrafters/stable`
-
-## Exceptions
-The unit test library `Catch` from Phil Nash is currently the only exception to the rename.  It was accepted into Conan Center with the uppercase name, and is heavily used.  Therefor, it will not be changed.  `catch2` is a separate package, and features the lower-case naming convention. 
+**Old:** `Boost.System/1.66.0@bincrafters/stable`  
+**New:** `boost_system/1.66.0@bincrafters/stable`  
 
 ## Required Action  
 For the `boost` packages, users should begin migrating their package references to point to the new naming convention ASAP.  Also of note, the `boost` packages were completely re-written during the rename, with a number of patches and bugfixes.  If you discover a breaking change to your setup, please let us know (see github issues link at the bottom of this post).  
