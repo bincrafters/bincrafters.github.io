@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Announcement: Boost package deprecations'
+title: 'Announcement: Boost Package Deprecations'
 tags: [C++, Conan.io, Boost, Bintray]
 ---
 
