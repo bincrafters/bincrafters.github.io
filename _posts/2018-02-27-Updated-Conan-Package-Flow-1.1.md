@@ -15,7 +15,7 @@ After further discussion with the Conan team we realized there were two distinct
 The previous updates were focused on "in-source" packaging workflows but it seemed it should be suitable for both scenarios. It did work, but it wasn't optimized, and came with a lot of unfortunate side-effects.  We brought this feedback to the Conan team and they aggressively sought various ways to accomodate our scenario and optimize our workflow. This brought about the recognition that the workflows are just fundamentally different, and some insight about possible solutions. The good news is that they were able to dramatically improve the original "out-of-source" workflow with very little modification to Conan.  
 
 ## New Out-Of-Source Packaing Workflow 
-So, the new workflow brings back the intuitive linear workflow that had prior to the November 2017 update.  After users have a `conanfile.py` that looks like it's ready to go, they can just jump right back to `conan create` as in:  
+So, the new workflow brings back the intuitive linear workflow that we had prior to the November 2017 update.  After users have a `conanfile.py` that looks like it's ready to go, they can just jump right back to `conan create` as in:  
 
 	$ conan create . bincrafters/testing
 
@@ -29,9 +29,9 @@ So, after some amount of trial-and-error with the `build()` method, the package 
 
 	$ conan create . bincrafters/testing -kb
 
-The `-kb` flag also implies `-k`, effectively causing conan fast-forward to `package()` method and re-run it with whatever `build` directory has already been generated.  This was really the missing link for our "out-of-source" workflows before. 
+The `-kb` flag also implies `-k`, effectively causing conan to fast-forward to `package()` method and re-run it with whatever `build` directory has already been generated.  This was really the missing link for our "out-of-source" workflows before. 
 
-The final step of the `conan create` command which often needs to be run many times until successful is the `test_package` step.  In this case, the best approach is to switch gears and actually take advantage of the separate and dedicated `conan test` command:
+The final step of the `conan create` command which often needs to be run many times until successful is the `test_package` step.  In this case, the best approach is to take advantage of the separate and dedicated `conan test` command:
 
 	$ conan test test_package bincrafters/testing
 
@@ -51,6 +51,6 @@ Also regarding test_package, we got some great new features in Conan 1.1. One of
 Again, it's important to point out that the recommendations here are for optimizing "out-of-source" builds, and that the previous post is still largely relevant for "in-source" builds.  However, for "out-of-source" builds which is still the majority of packages we see, this workflow brings a number of advantages.  
 
 1. It's dramatically simpler, effectively only requiring knowledge of two Conan commands and two flags.  
-2. It's inherently Idempotent, users don't have to manually create, specify, or delete any directories or files manually. 
+2. It's inherently idempotent, users don't have to manually create, specify, or delete any directories or files manually. 
 
 We really hope other OSS packagers test this workflow for themselves and let us know their thoughts.  The Conan team is really amazing when it comes to listening to feedback, and we try to help encourage the feedback loop from the community for that reason.
