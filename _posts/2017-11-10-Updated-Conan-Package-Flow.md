@@ -7,6 +7,12 @@ tags: [Conan.io]
 With the latest version of Conan, Bincrafters had to rethink our common workflows for developing packages.  We were a bit confused at first, and had to ask the Conan team for advice to get things streamlined. We wanted to share the current workflow with the community in case other packagers are also struggling to figure out the best flow with the updated command-line options.  
 
 ---
+## Update 2/27/2018
+
+Much has changed since this post was made, for an updated perspective, please see this new post: [Updated Post](https://bincrafters.github.io/2018/02/27/Updated-Conan-Package-Flow-1-1/)
+
+Some of the syntax in this post is definitely outdated.  However, it's worth noting that the overall workflow described in this post is still largely applicable for packagers who are working with libraries/projects where they are maintaining the `conanfile.py` "in-source" (in the library project). The updated post is mostly focused on the workflow where the `conanfile.py` is maintained in a different repository such as those packages maintained by Bincrafters. 
+
 
 ## Biggest Change - Save `conan create` for last
 
