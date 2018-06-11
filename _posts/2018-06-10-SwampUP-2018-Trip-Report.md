@@ -16,7 +16,7 @@ In general, I have to say that this was one of the most well-organized and enjoy
 
 There were a few clear message among the Conan audience about devops for C and C++.  One such message was that the open-source ecosystem is only part of the story of dependency management.  Another was that enterprise devops teams and workflows need and want a solution which manages and deals with compiled binaries, and not just sources.  These might be the most important takeaways from the conference to be highlighted for the wider C and C++ community, and particularly anyone people involved with the C++ committee study group SG15.  Understanding the perspectives of the large enterprises who are aggressively pursuing "package management" seem very relevant to the process of creating any successful standards in the realm of tooling interoperability.  
 
-Also of note, the package management discussions contained a lot of substance, in the form of concrete details about homegrown devops strategies these companies have tried in the past, along with feedback about the costs, benefits, and lessons learned from those strategies.  The discussions seemed more informed, balanced, and open-minded than those seen in the public forums online, such as reddit, slack, and blog posts on the topic.  Overall, the conference really shined light on the under-representation of this enterprise user base in the public discussion around tooling, and how unfortunate that is given that this user base contains extremely wise and experience build engineers.  
+Also of note, the package management discussions contained a lot of substance in the form of concrete details about homegrown devops strategies these companies have tried in the past, along with feedback about the costs, benefits, and lessons learned from those strategies. The conference really shined light on the under-representation of this enterprise user base in the public discussion around tooling and how unfortunate that is given that this user base contains extremely wise and experience build engineers.  
 
 ### Enterprise Characteristics
 
@@ -32,7 +32,7 @@ A few additional notes: virtually everyone was using some form of CI servers suc
 
 ### Roadmap Discussion
 
-There was an interesting meeting where engineers from many of the existing and potential companies using Conan gathered to vote on potential roadmap features.  This was not to dictate the course of the future, but rather to gather and weigh feedback.  There were 15 proposed items taken from existing feature requests.  There were a few that stuck out as being priorities for Bincrafters, so we'll focus on those. 
+There was an interesting meeting where engineers from many of the existing and potential companies using Conan gathered to vote on potential roadmap features.  This was not to dictate the course of the future, but rather to gather and weigh feedback.  There were 15 proposed items taken from existing feature requests.  There were a few that stuck out as being relevant to Bincrafters, so we'll focus on those. 
 
 #### Python Code Sharing
 
