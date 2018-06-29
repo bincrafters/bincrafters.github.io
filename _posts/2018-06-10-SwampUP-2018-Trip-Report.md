@@ -10,7 +10,7 @@ JFrog's swampup conference 2018 happened last month, and the devops challenges o
 
 ***Update 06/29/2018***  
 The video of the Bincrafters talk from SwampUP has been posted:  
-https://www.youtube.com/watch?v=v2QiNTvco5E
+[https://www.youtube.com/watch?v=v2QiNTvco5E](https://www.youtube.com/watch?v=v2QiNTvco5E)
 
 ### About the Conference Itself
 
