@@ -39,6 +39,7 @@ In order to make a powerful and valuable transformation across many organization
 
 With the ability to compose and distribute the profile system among enterprise teams, Conan profiles have truly revolutionized a growing number of enterprise workflows and strategies in a way that would not be possible without them.  It has proven to be an absolutely necessary abstraction layer to corrale all the inputs to build processes.  
 
+Ref. Conan Profiles: 
 [https://docs.conan.io/en/latest/reference/commands/misc/profile.html](https://docs.conan.io/en/latest/reference/commands/misc/profile.html)
 
 ### Customizable Settings - Compilers and Architectures
@@ -56,6 +57,8 @@ Have you ever heard of OpusMake?
 I hadn't heard of it, but I was tasked with automating builds with it. Unfortunately, CMake was not usable in the codebase, so I needed a way to generate make files manually.  Also, the syntax of OpusMake is proprietary, very different from GnuMake, so even if there was an existing way to generate Makefiles, it wasn't going to help me.  Fortunately, it was trivial in Conan to write a custom Generator that passed the information to OpusMake in its native format and use it throughout our environment.  
 
 This is a common situation in many enterprise organizations.  Their requirements might include building projects with in-house, vendor provided, or just really old build systems, none of which would ever be natively supportable by any package manager (including Conan). So, similar to the virtues mentioned above (the features around profiles and settings), the crucial requirement around build systems is flexibility and Conan provides a really powerful model for that. 
+
+Ref. Conan Generators: 
 [https://docs.conan.io/en/latest/reference/generators.html](https://docs.conan.io/en/latest/reference/generators.html)
 
 ### Summary
