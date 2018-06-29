@@ -8,6 +8,10 @@ JFrog's swampup conference 2018 happened last month, and the devops challenges o
 
 ---
 
+***Update 06/29/2018***  
+The video of the Bincrafters talk from SwampUP has been posted:  
+https://www.youtube.com/watch?v=v2QiNTvco5E
+
 ### About the Conference Itself
 
 In general, I have to say that this was one of the most well-organized and enjoyable conferences I've ever been to. I see why people who come once, tend to return each year thereafter.  The attribute about this conference which was probably the most unique and memorable was the diversity of technology represented for such a small conference.  It was not dominated by a single vertical, language, cloud platform, or even a specific devops concept like containers.  We had experts talking about every part of devops, from a vast array of companies and ecosystems. 
