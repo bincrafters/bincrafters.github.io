@@ -20,13 +20,13 @@ So now that we've talked a bit about the landscape of enterprise package managem
 
 Package management (or the more general term "dependency management") is the well-known marquee feature of Conan, and thus not intended to be the focus of this article.  However, it's important to clarify some points about how Conan dependency management differs from others.  Conan provides four parallel components surrounding the packaging and management of dependencies for projects.  While enabling users to package source files (as do other package managers), Conan also enables users to package compiled binaries, and the build tools used to compile the sources into binaries.  It also lets users specify dependencies from other package managers, namely those built into the common operating systems.  In particular, the management of binaries and build tools is one unique and powerful feature which is used extensively in the enterprise use-case, and relatively rarely in the OSS use-case (although that is changing slowly).  By providing all of these slightly different "dependency management" features through a unified interface, platform, and syntax, it really simplifies the shape of the problem from an administrative point of view.   
 
-*Note: For more detail about binary and tool packaging, check out our other blog post titled "What is Conan".*
+*Note: For more detail about binary and tool packaging, check out our upcoming blog post titled "What is Conan?".* 
 
 ### Profiles
 
 Of all the under-appreciated features in Conan, profiles have to be the single most powerful and transformative.  At SwampUP, virtually every presentation came from developers who use Conan in an enterprise codebase, and virtually all of them talked about their use of profiles.  So what makes profiles so important?  
 
-In order to make a powerful and valuable transformation across many organizations an industry, there has to be something really wrong.  Something broken or horribly inefficient, and so complicated that it hasn't been fixed in a simple and general way.  Right?  One would think so, but Conan profiles actually defy this logic.  What Conan profiles actually do is actually straightforward (although the road of creating and evolving the functionality was obviously not).  As it stands now, Conan Profiles could almost stand alone as a tool which could be generally useful across all of software development.  Here's what Conan profiles offer: 
+In order to make a powerful and valuable transformation across many organizations an industry, there has to be something really wrong.  Something broken or horribly inefficient, and so complicated that it hasn't been fixed in a simple and general way.  Right?  One would think so, but Conan profiles actually seem to defy this logic.  What Conan profiles actually do is actually straightforward (although the road of creating and evolving the functionality was not).  As it stands now, Conan Profiles could potentially stand alone as a tool which would be generally useful across all of software development.  Here's what Conan profiles offer: 
 
 - Robust Environment Variable Management
 - Build tool installations, decoupled from the OSS
@@ -35,25 +35,28 @@ In order to make a powerful and valuable transformation across many organization
 - A composition and distribution strategy for the above
 - It's open-source, tested, and mature (unlike in-house tools)
 
-*Note: For more detail about these features, check out our other blog post titled "What is Conan".*
+*Note: For more detail about profiles, check out our upcoming blog post titled "What is Conan?".*
 
 With the ability to compose and distribute the profile system among enterprise teams, Conan profiles have truly revolutionized a growing number of enterprise workflows and strategies in a way that would not be possible without them.  It has proven to be an absolutely necessary abstraction layer to corrale all the inputs to build processes.  
 
-To elaborate why the profiles are so important and value for C and C++ development (and actually, native development in general), is because of ABI compatibility.   As developers and CI servers like Jenkins are regularly building, 
+[https://docs.conan.io/en/latest/reference/commands/misc/profile.html](https://docs.conan.io/en/latest/reference/commands/misc/profile.html)
 
 ### Customizable Settings - Compilers and Architectures
 
-How many compilers are there for C and C++ ?  Most developers are probably aware of at least 3 or 4,  and might think that 10 is a generous guess.  The most honest answer is probably that nobody knows.  50 is probably a reasonable guess, but potentially still conservative.  Thus, Conan takes the approach of supporting an infinite number of compilers, by defining a few well-known compilers for practicality and convenience, but giving developers the ability to define whatever compilers are used their environment, and their properties.  One crucial property that Conan empowers users to define and control is the "ABI compatibility" properties of a compiler.  For example, binaries built from different GCC minor versions are ABI compatible, but only those after 4.9.  Similar situations exist with obscure enterprise compilers.  Conan is designed to handle these situations with ease.  Similar to the problem of knowing all compilers, it's impractical and useless to try to know or define all possible architectures. Thus, again the best solution for a tool like Conan is to provide sensible defaults but empower developers to define the ones they care about (which it does).  
+How many compilers are there for C and C++ ?  Most developers are probably aware of at least 3 or 4,  and might think that 10 is a generous guess.  The most honest answer is probably that nobody knows.  50 probably sounds like a reasonable guess, but it the real number is certainly far greater than that.  Thus, Conan takes the approach of supporting an infinite number of compilers, by defining a few well-known compilers for practicality and convenience, but giving developers the ability to define whatever compilers are used their environment, and their properties.  One crucial property that Conan empowers users to define and control is the "ABI compatibility" properties of a compiler.  For example, binaries built from different GCC minor versions are ABI compatible, but only those after 4.9.  Similar situations exist with obscure enterprise compilers.  Conan is designed to handle these situations with ease.  Similar to the problem of knowing all compilers, it's impractical and useless to try to know or define all possible architectures. Thus, again the best solution for a tool like Conan is to provide sensible defaults but empower developers to define the ones they care about (which it does).  
 
 Conan users who want to use exclusively for getting dependencies for OSS projects rarely use obscure compilers and architectures, so this is a great example of a feature which is predominantly designed for enterprise projects and seems unnecessarily complicated to the newcomer.  With that said, the IOT revolution and explosion of custom architectures is making this a more relevant feature for people who do development for new and obscure hardware platforms as a hobby. 
 
 
 ### Custom Generators for Build System Variables
 
-Have you ever heard of OpusMake?  I hadn't heard of it, but I was tasked with automating builds with it using Conan. Unfortunately, CMake was not usable in the codebase, so I needed a way to generate make files manually.  Also, the syntax of OpusMake is proprietary, very different from GnuMake, so even if there was an existing way to generate Makefiles, it wasn't going to help me.  Fortunately, it was trivial in Conan to write a custom Generator that passed the information to OpusMake in its native format and use it throughout environment.  
+Have you ever heard of OpusMake?  
+[http://www.opussoftware.com/](http://www.opussoftware.com/)
+
+I hadn't heard of it, but I was tasked with automating builds with it. Unfortunately, CMake was not usable in the codebase, so I needed a way to generate make files manually.  Also, the syntax of OpusMake is proprietary, very different from GnuMake, so even if there was an existing way to generate Makefiles, it wasn't going to help me.  Fortunately, it was trivial in Conan to write a custom Generator that passed the information to OpusMake in its native format and use it throughout our environment.  
 
 This is a common situation in many enterprise organizations.  Their requirements might include building projects with in-house, vendor provided, or just really old build systems, none of which would ever be natively supportable by any package manager (including Conan). So, similar to the virtues mentioned above (the features around profiles and settings), the crucial requirement around build systems is flexibility and Conan provides a really powerful model for that. 
-
+[https://docs.conan.io/en/latest/reference/generators.html](https://docs.conan.io/en/latest/reference/generators.html)
 
 ### Summary
 
