@@ -17,7 +17,7 @@
   "private": true,
   "devDependencies": {
     "babel-eslint": "7.2.3",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-plugin-transform-function-bind": "6.22.0",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-es2016": "6.24.1",
@@ -26,12 +26,12 @@
     "cross-env": "5.0.1",
     "eslint": "3.19.0",
     "eslint-config-airbnb": "15.1.0",
-    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.1.0",
     "json2yaml": "1.1.0",
     "uglify-js": "3.0.26",
-    "watchify": "3.9.0"
+    "watchify": "^3.11.0"
   },
   "dependencies": {
     "color": "2.0.0",
