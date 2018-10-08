@@ -116,6 +116,10 @@
     name: Trello
     icon: icon-trello
     prepend: "https://trello.com/"
+  opencollective:
+    name: Open Collective
+    icon: icon-opencollective
+    prepend: "https://opencollective.com/"
   wordpress:
     name: WordPress
     icon: icon-wordpress
