@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Conan 1.0.0 and Bincrafters Updates'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 Over the past weeks, our users may have noticed a lot of changes and activity on the Bincrafters packages.  This has largely been to bring our packages up to Conan 1.0.0 compatibility and best practices. Additionally, we've been applying large-scale improvements to our recipe's and our tooling for maintaining them along the way.  This post details what, how, and why, and provides a summary of things you might need to know as a consumer of these packages. 

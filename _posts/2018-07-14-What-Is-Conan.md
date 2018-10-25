@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is Conan?
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 Whether you know about Conan or not, this post might help advance your perspective a bit.  Conan is typically described as a "package manager for C and C++".   Indeed that's its primary function and probably the best short description we have, but it fails to capture several of Conan's most powerful aspects.  Thus, this article aims to shed light on Conan's lesser-known capabilities and potential roles and enable potential users to better decide whether or not it might be of value to them. 

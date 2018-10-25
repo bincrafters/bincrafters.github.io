@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Thinking about conanfile.py'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 This post provides important advice for all Conan packagers (especially new ones) which intends to help sidestep a pitfall which has claimed many a packager in the past.  When you start working with Conan, you discover that it uses a python class as its descriptor format.  This is absolutely a great design, however it includes class variables which are used in class methods. As such, users might be tempted use class variables to share state, but beware... it's a trap.

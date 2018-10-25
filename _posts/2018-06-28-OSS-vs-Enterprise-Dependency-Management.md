@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'OSS vs Enterprise Dependency Management'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 The domain of dependency management for C and C++ can be divided into to the smaller domains: OSS and Enterprise. Newcomers to Conan seem to be aware of the OSS domain, but often are completely unfamiliar with the enterprise.  This is a problem, because many of Conan's most powerful and important features are the ones designed specifically for the enterprise, so often time these users feel a bit lost about things they see in the documentation.  This post aims to help those newcomers understand the purpose and power of some of these enterprise-related features and shine some light on this lesser-known dimension of dependency management.

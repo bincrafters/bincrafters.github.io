@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Updated Conan Package Flow 1.1'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 In a [previous post](https://bincrafters.github.io/2017/11/10/Updated-Conan-Package-Flow/) we outlined the latest workflow for creating Conan packages for third-party open-source libraries based on some recent changes at that time.  Unfortunately, there were some problems with that workflow (and post), which are now rectified with today's release of Conan 1.1. Here's a primer on the latest process. 

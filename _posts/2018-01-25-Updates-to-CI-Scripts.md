@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Updates to CI Scripts for Conan.io'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 Bincrafters has recently been doing some re-evaluation of our continuous integration templates and scripts.  The primary purpose of this post is to raise awareness of an important discovery regarding the Conan CI templates, which is likely to be having a subtle but significant negative impact for many Conan packagers. Additionally, we wanted to share an important update regarding our CI strategy for OSX builds. 

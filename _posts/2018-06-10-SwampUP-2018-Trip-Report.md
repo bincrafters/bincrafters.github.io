@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'SwampUP 2018 Trip Report'
-tags: [Conan.io]
+tags: [Conan.io, C++]
 ---
 
 JFrog's swampup conference 2018 happened last month, and the devops challenges of C and C++ received a great deal of attention.  There was a Conan training session on Day 1, a Conan roadmap discussion on Day 2, and a room dedicated to Conan talks on Day 3.  This trip report is focused primarily on sharing the predominant themes and feedback heard from the swampup attendees who came to these events to learn and talk about C and C++.  
