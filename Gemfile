@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.5"
-
+gem "jekyll", "~> 3.6.3"
+gem "ffi", "~> 1.9.24"
 gem "jekyll-default-layout", "~> 0.1"
 gem "jekyll-feed", "~> 0.9"
 gem "jekyll-optional-front-matter", "~> 0.2"

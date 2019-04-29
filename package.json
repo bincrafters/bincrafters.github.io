@@ -31,12 +31,15 @@
     "eslint-plugin-react": "7.1.0",
     "json2yaml": "1.1.0",
     "uglify-js": "3.0.26",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.1"
   },
   "dependencies": {
+    "cached-path-relative": "1.0.2",
     "color": "2.0.0",
     "core-js": "2.4.1",
+    "debug": "2.6.9",
     "elem-dataset": "1.1.1",
+    "package.json": "^2.0.1",
     "rxjs": "5.4.2",
     "web-animations-js": "2.3.1",
     "y-drawer": "6.1.1",
