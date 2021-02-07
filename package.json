@@ -31,7 +31,8 @@
     "eslint-plugin-react": "7.1.0",
     "json2yaml": "1.1.0",
     "uglify-js": "3.0.26",
-    "watchify": "^3.11.1"
+    "watchify": "^3.11.1",
+    "kind-of": ">=6.0.3"
   },
   "dependencies": {
     "cached-path-relative": "1.0.2",
@@ -43,7 +44,8 @@
     "rxjs": "5.4.2",
     "web-animations-js": "2.3.1",
     "y-drawer": "6.1.1",
-    "y-push-state": "6.3.0"
+    "y-push-state": "6.3.0",
+    "kind-of": ">=6.0.3"
   },
   "repository": {
     "type": "git",
