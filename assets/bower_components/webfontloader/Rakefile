@@ -210,14 +210,14 @@ end
 #############################################################################
 
 task :release => [:build] do
-  unless `git branch` =~ /^\* master$/
-    puts "You must be on the master branch to release!"
+  unless `git branch` =~ /^\* main$/
+    puts "You must be on the main branch to release!"
     exit!
   end
   sh "git add webfontloader.js"
   sh "git commit --allow-empty -a -m 'Release #{version}'"
   sh "npm version #{version}"
-  sh "git push --tags origin master"
+  sh "git push --tags origin main"
   sh "gem push pkg/#{name}-#{version}.gem"
   sh "npm publish"
 end
