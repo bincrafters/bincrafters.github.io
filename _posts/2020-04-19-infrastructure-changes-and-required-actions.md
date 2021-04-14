@@ -50,7 +50,7 @@ _**For new recipes and recipes revisions we continue to build and provide binary
 
 In a nutshell, on May 1, 2021 the vast majority of currently existing binary packages will not be available anymore, but all recipes should continue to be available from our new Conan remote. If you notice missing recipes or similar unexpected behaviour, please reach out to us.
 
-We recommend to not expect that our remote offers binary packages for a specific  configuration. Instead, set a [build mode](https://docs.conan.io/en/latest/mastering/policies.html) like `missing` (or `outdated`) in order to tell your Conan client to build the packages if they are not available.
+We recommend to not expect that our remote offers binary packages for a specific configuration. Instead, set a [build mode](https://docs.conan.io/en/latest/mastering/policies.html) like `missing` (or `outdated`) in order to tell your Conan client to build the packages if they are not available.
 
 ---
 
