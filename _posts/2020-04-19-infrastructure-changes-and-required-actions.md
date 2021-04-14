@@ -44,7 +44,7 @@ We made the decision to copy all _**recipes**_ from our Bintray remote to Artifa
 
 One reason for this decision was the fact that many of the recipes and their binary packages got obsolete in the meantime and, for example, can now be found directly in the [Conan Center Index](https://github.com/conan-io/conan-center-index). When it is possible, we migrate our recipes there and welcome help from contributors for such migrations.
 
-The other major reason is the enormous size of all binary packages combined, which we would need to transfer and verify. The disadvantages of having this packages around further might easily outnumber the advantages.
+The other major reason is the enormous size of all binary packages combined, which we would need to transfer and verify. The disadvantages of having these packages around further might easily outnumber the advantages.
 
 _**For new recipes and recipes revisions we continue to build and provide binary packages via our new Artifactory remote.**_
 
