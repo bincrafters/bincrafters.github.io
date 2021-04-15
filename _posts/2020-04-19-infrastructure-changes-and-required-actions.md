@@ -12,13 +12,11 @@ May 1, 2021.
 
 Since the beginning of Bincrafters, our packages were hosted on Bintray. In
 February, JFrog [announced the sunset of
-Bintray](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html)
+Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)
 (see also [this Conan blog
 post](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html)). On
-**May 1, 2021**, [Bintray will shut down
-forever](https://blog.conan.io/2021/03/31/Bintray-sunset-timeline.html) and with
-it our current Conan repository at
-`https://api.bintray.com/conan/bincrafters/public-conan`.
+**May 1, 2021**, Bintray will shut down forever and with it our current Conan 
+repository at `https://api.bintray.com/conan/bincrafters/public-conan`.
 
 JFrog offers [Artifactory](https://jfrog.com/artifactory/) as one possibility to
 host a Conan repository. In addition to the opportunity to host Artifactory
