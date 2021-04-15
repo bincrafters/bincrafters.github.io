@@ -8,9 +8,9 @@ We have some important changes in our infrastructure. Consumers of our packages 
 
 ---
 
-Since the beginning of Bincrafters, our packages are hosted on Bintray. In February, JFrog [announced the sunset of Bintray](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html) (see also [this Conan blog post](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html)). On **May 1, 2021**, [Bintray will shut down forever](https://blog.conan.io/2021/03/31/Bintray-sunset-timeline.html) and with it our current Conan repository at `https://api.bintray.com/conan/bincrafters/public-conan`.
+Since the beginning of Bincrafters, our packages were hosted on Bintray. In February, JFrog [announced the sunset of Bintray](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html) (see also [this Conan blog post](https://blog.conan.io/2021/02/05/JFrog-announces-sunset-bintray.html)). On **May 1, 2021**, [Bintray will shut down forever](https://blog.conan.io/2021/03/31/Bintray-sunset-timeline.html) and with it our current Conan repository at `https://api.bintray.com/conan/bincrafters/public-conan`.
 
-JFrog offers [Artifactory](https://jfrog.com/artifactory/) as one possibility to host a Conan repository. In addition to the opportunity to install Artifactory on own servers, they also offer managed Artifactory cloud instances which also includes a free trier.
+JFrog offers [Artifactory](https://jfrog.com/artifactory/) as one possibility to host a Conan repository. In addition to the opportunity to host Artifactory yourself, they also offer managed Artifactory cloud instances which also includes a free trier.
 
 Since we build and provide binary packages for a huge amount of configurations, we always required a lot of space and network traffic. JFrog generously sponsored us by effectively making our Bintray account unlimited and helping us to cover costs for CI.
 
